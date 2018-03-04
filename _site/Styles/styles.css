@@ -9,6 +9,26 @@
   border: 1px solid grey;
 
 }
+/* ----- Nav Styles ---- */
+.dropdown-nav{
+  position: relative;
+}
+.dropdown-content{
+  position:absolute;
+  background-color: white;
+  display: none;
+  text-decoration: none;
+}
+.dropdown-nav:hover .dropdown-content{
+  display: block;
+
+}
+
+/* ----- Header Styles ----- */
+.cartIcon a {
+  font-size: 2rem;
+  color: grey;
+}
 
 .center {
   text-align: center;
@@ -22,4 +42,9 @@
 
 img {
   max-width: 100%;
+}
+.post-bg-image {
+  background-size: cover;
+  background-position: center;
+  min-height: 50vh;
 }

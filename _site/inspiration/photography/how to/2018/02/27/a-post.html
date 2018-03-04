@@ -12,7 +12,7 @@
     </script>
 
     <meta charset="utf-8">
-    <title>{{page.title}}</title>
+    <title>How to Take Awesome Travel Photos</title>
     <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
     <link rel="stylesheet" type="text/css" href="/Styles/gridlex.css">
     <link rel="stylesheet" type="text/css" href="/Styles/styles.css">
@@ -20,34 +20,9 @@
   </head>
 
   <body>
-            {% if page.main-menu == true %}
-    <header class="grid-middle-center-noGutter headerMain">
-      <div class="col-3 grid-middle-center logo">
-        <a href="/"><h2>WANDERLOST + FOUND</h2></a>
-      </div>
-      <div class="col">
-      </div>
-      <nav class="col-4 grid-middle-center-noGutter mainMenu center">
-        <a href="/">Home</a>
-      <span class="dropdown-nav">
-        <a href="/mystory"> About </a>
-          <div class="dropdown-content">
-            <a href="/mystory">My Story</a>
-            <a href="/contact">Contact Me</a>
-            <a href="/work-with-me">Work With Me</a>
-            <a href="#">Media Kit</a>
-          </div>
-      </span>
-        <a href="/blog"> Blog </a>
-        <a href="/shop"> Shop </a>
-      </nav>
-      <div class="col-1 grid-middle-center-noGutter cartIcon">
-        <a href="/shop"><i class="fas fa-shopping-cart"></i></a>
-      </div>
-    </header>
-              {% endif %}
+            
 
-              {% if page.blog-menu == true %}
+              
       <header class="grid-middle-center-noGutter headerMain">
         <div class="col-3 grid-middle-center-noGutter logo">
           <a href="/"><h2> WANDERLOST + FOUND</h2></a>
@@ -107,25 +82,27 @@
           <a href="#"><i class="fas fa-shopping-cart"></i></a>
         </div>
       </header>
-                {% endif %}
+                
 
-                  {% if page.top-ig == true %}
-                  {% include ig.html %}
-                  {% include hero.html %}
-                  {% endif %}
+                  
 
-              {% if page.pagetitle == true %}
-    <section class="grid-spaceAround-center-noGutter pageTitle">
-      <h1>{{page.title}}</h1>
-    </section>
-              {% endif %}
+              
 
     <div class="grid">
       <div class="col">
-      {{content}}
+      <div class="grid-middle-center-noGutter post-bg-image" style="background-image:url('/Images/polaroid.jpg')">
+  <h1>How to Take Awesome Travel Photos</h1>
+</div>
+
+<h2 id="a-heading">A Heading</h2>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+
       </div>
 
-              {% if page.sidebar == true %}
+              
       <aside class="col-3 grid-middle-center-noGutter">
         <div class="grid-middle-center-noGutter sidebar-imagetext">
           <p class="blocktitle">HI, I'M JENN!</p>
@@ -160,7 +137,7 @@
           <p><a href="#">Media Kit Button</a></p>
         </div>
       </aside>
-              {% endif %}
+              
     </div>
 
     <section class="grid-spaceAround-center-noGutter mailingList">
@@ -174,50 +151,13 @@
       </div>
     </section>
 
-      {% include ig.html %}
+      <section class="ig">
+  <!-- LightWidget WIDGET -->
+  <script src="//lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/7b4f2cf4dc0e565f9821e6bab6356d95.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
+</section>
 
-              {% if page.sidebar == false %}
-    <footer class="grid-noGutter">
-      <div class="col-2">
-        <p>Copyright and Disclosure</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      </div>
-      <div class="col-3">
-        <p>currently exploring if i can get the map to work</p>
-      </div>
-      <div class="grid-noGutter col-2">
-        <div class="col-12">
-        </div>
-        <div class="col-12 sidebarButtons center">
-          <p><a href="#">Work With Me Button</a></p>
-        </div>
-      </div>
-      <div class="grid-noGutter col-2">
-        <div class="col-12">
-          <p class="blocktitle">SEARCH</p>
-          <form>
-            <input placeholder="Search" type="text">
-          </form>
-        </div>
-        <div class="col-12 sidebarButtons center">
-          <p><a href="#">Media Kit</a></p>
-        </div>
-      </div>
-      <div class="col-3 connectIcons center">
-        <p class="blocktitle">Connect With Me</p>
-        <p>
-          <a href="#"><i class="fab fa-facebook"></i></a>
-          <a href="#"><i class="fab fa-instagram"></i></a>
-          <a href="#"><i class="fab fa-pinterest"></i></a>
-        </p>
-        <p>
-          <a href="#"><i class="fas fa-plus"></i></a>
-          <a href="#"><i class="fas fa-envelope"></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-        </p>
-      </div>
-      </footer>
-              {% endif %}
+
+              
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
       <script src="js/main.js"></script>
   </body>

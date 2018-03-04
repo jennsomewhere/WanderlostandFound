@@ -5,35 +5,113 @@ sidebar: true
 pagetitle: false
 main-menu: false
 blog-menu: true
+top-ig: true
 ---
 
-<section class="banner grid-middle-center-noGutter">
-  <div>
-    <h1>WANDERLOST + FOUND</h1>
-    <p class="subhead">LOST x FOUND x WANDER x ASTOUND</p>
+
+<section class="grid-center-noGutter">
+  <div class="col-12 grid-middle-spaceBetween-noGutter category-title">
+    <div class="col-4">
+      <p>Wanderlost In:</p>
+    </div>
+    <div class="col-4">
+      <a href="#">Get Wanderlost in More Destinations</a>
+    </div>
+  </div>
+  <div class="col">
+  </div>
+
+  {% for post in site.categories.destinations limit:3 %}
+  <div class="col-3 post-preview">
+    <p>{{post.date | date_to_long_string}}</p>
+    <img src="{{post.featured-image}}" />
+    <h3>{{post.title}}</h3>
+    <p>{{post.description}}</p>
+    <a href="{{post.url}}">Read More</a>
+  </div>
+  {% endfor %}
+  <div class="col">
   </div>
 </section>
-<section class="grid-middle-center-noGutter center">
-  <div class="col-6_sm-12 grid-middle-center-noGutter categories">
-    <h3 >Wanderlost In:</h3>
+
+<section class="grid-center-noGutter">
+  <div class="col-12 grid-middle-spaceBetween-noGutter category-title">
+    <div class="col-4">
+      <p>Travel Tips</p>
+    </div>
+    <div class="col-4">
+      <a href="#">See All in Travel Tips</a>
+    </div>
   </div>
-  <div class="col-6_sm-12 grid-middle-center-noGutter categories">
-    <h3>Travel Tips</h3>
+  <div class="col">
+  </div>
+
+  {% for post in site.categories.traveltips limit:3 %}
+  <div class="col-3 post-preview">
+    <p>{{post.date | date_to_long_string}}</p>
+    <img src="{{post.featured-image}}" />
+    <h3>{{post.title}}</h3>
+    <p>{{post.description}}</p>
+    <a href="{{post.url}}">Read More</a>
+  </div>
+  {% endfor %}
+  <div class="col">
   </div>
 </section>
-<section class="grid-middle-center-noGutter">
-  <div class="col-6_sm-12 grid-middle-center-noGutter categories">
-    <h3>Inspiration</h3>
+
+<section class="grid-center-noGutter">
+  <div class="col-12 grid-middle-spaceBetween-noGutter category-title">
+    <div class="col-4">
+      <p>Editorial</p>
+    </div>
+    <div class="col-4">
+      <a href="#">See All in Editorial</a>
+    </div>
   </div>
-  <div class="col-6_sm-12 grid-middle-center-noGutter categories">
-    <h3>Extras</h3>
+  <div class="col">
+  </div>
+
+  {% for post in site.categories.extras limit:3 %}
+  <div class="col-3 post-preview">
+    <p>{{post.date | date_to_long_string}}</p>
+    <img src="{{post.featured-image}}" />
+    <h3>{{post.title}}</h3>
+    <p>{{post.description}}</p>
+    <a href="{{post.url}}">Read More</a>
+  </div>
+  {% endfor %}
+  <div class="col">
   </div>
 </section>
-<section class="grid-middle-center-noGutter">
-  <div class="col-6_sm-12 grid-middle-center-noGutter categories">
-    <h3>My Story</h3>
+
+<!-- <section class="grid-center-noGutter">
+  <div class="col-6-grid-center-noGutter most-popular">
+    <h5>Most Popular</h5>
+    <p> This is a placeholder for my most popular posts which Danny Boy is going to look into the plugins for me.</p>
+
+
+    {% for post in site.posts %}
+    <div class="col-12 post-preview">
+      <p>{{post.date | date_to_long_string}}</p>
+      <img src="{{post.featured-image}}" />
+      <h3>{{post.title}}</h3>
+      <p>{{post.description}}</p>
+      <a href="{{post.url}}">Read More</a>
+    </div>
+    {% endfor %}
+
   </div>
-  <div class="col-6_sm-12 grid-middle-center-noGutter categories">
-    <h3>Shop</h3>
-  </div>
-</section>
+
+  <div class="col-6-grid-center-noGutter most-popular">
+    <h5>Explore</h5>
+    <p> This is a placeholder for randomly chosen posts from my blog which I have no idea how to make happen but I'm hoping Dan will also be able to figure out and help me with.</p>
+
+    {% for post in site.posts limit:3 %}
+    <div class="col-12 post-preview">
+      <p>{{post.date | date_to_long_string}}</p>
+      <img src="{{post.featured-image}}" />
+      <h3>{{post.title}}</h3>
+      <p>{{post.description}}</p>
+      <a href="{{post.url}}">Read More</a>
+    </div>
+    {% endfor %} -->

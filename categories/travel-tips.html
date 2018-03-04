@@ -1,0 +1,38 @@
+---
+layout: default
+title: Travel Tips
+sidebar: true
+pagetitle: false
+main-menu: false
+blog-menu: true
+---
+
+{% for post in site.posts %}
+<div class="grid">
+  <div class="col-4 post preview">
+    <p>{{post.date | date_to_long_string}}</p>
+    <img src="https://source.unsplash.com/400x300" />
+    <h3>{{post.title}}</h3>
+    <p>{{post.description}}</p>
+    <a href="{{post.url}}">Read More</a>
+  </div>
+</div>
+
+
+{% endfor %}
+<div>
+<p>CANADA</p>
+</div>
+{% for post in site.categories.canada %}
+<div class="grid">
+  <div class="col-4 post preview">
+    <p>{{post.date | date_to_long_string}}</p>
+    <img src="https://source.unsplash.com/400x300" />
+    <h3>{{post.title}}</h3>
+    <p>{{post.description}}</p>
+    <a href="{{post.url}}">Read More</a>
+  </div>
+</div>
+
+
+{% endfor %}
