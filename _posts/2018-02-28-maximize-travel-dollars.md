@@ -5,10 +5,10 @@ description: A post about making your money go further
 featured-image: /Images/travel-plan.jpg
 blog-menu: true
 sidebar: true
-categories:
-  - traveltips
-  - extras
-  - inspiration
+tags:
+  - Travel Tips
+  - Extras
+  - On My Mind
 ---
 
 #### Don't let an empty wallet stop you from dreaming big when it comes to your travel plans. From accommodation to transportation to sight-seeing, there are a wide range of options out there for you to travel for little to no money of your own. (Yes, it is actually possible!)

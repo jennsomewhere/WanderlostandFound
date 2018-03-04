@@ -6,9 +6,20 @@
 }
 
 *{
-  border: 1px solid grey;
-
+  border: 1px solid rgb(220,220,220);
 }
+header, section, footer {
+  padding: 5%;
+}
+/* ----- Fonts ----- */
+@font-face {
+    font-family: 'Zilap';
+    src: url('../fonts/zilap_africa_demo-webfont.woff2') format('woff2'),
+         url('../fonts/zilap_africa_demo-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 /* ----- Nav Styles ---- */
 .dropdown-nav{
   position: relative;
@@ -39,7 +50,9 @@
 
 /* ----- Header Styles ---- */
 
-
+h2 {
+  font-family: 'Zilap';
+}
 img {
   max-width: 100%;
 }

@@ -5,10 +5,10 @@ description: My favouite hikes that are accessible from the town of Banff withou
 blog-menu: true
 sidebar: true
 categories:
-  - northamerica
-  - hiking
-  - outdoor
-  - destinations
+  - North America
+tags:
+  - Hiking
+  - Outdoors
 featured-image: /Images/moraine.jpg
 ---
 

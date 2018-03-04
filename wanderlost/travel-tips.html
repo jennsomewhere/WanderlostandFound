@@ -1,0 +1,47 @@
+---
+layout: categories
+title: Travel Tips
+sidebar: true
+pagetitle: true
+main-menu: false
+blog-menu: true
+top-ig: true
+hero: false
+Categories:
+  - name: How Tos
+    cat: how-tos
+  - name: Recommendations
+    cat: recommendations
+  - name: Tips & Tricks
+    cat: tips-tricks
+  - name: Photography
+    cat: photography
+---
+
+
+<section class="grid-center-noGutter-spaceBewteen">
+  {% for tips in page.Categories %}
+    <div class="col-12 grid-middle-spaceBetween-noGutter category-title">
+      <div class="col-4">
+        <p>{{tips.name}}</p>
+      </div>
+      <div class="col-4">
+        <p></p>
+        <a href="/tag/{{tips.cat}}">see all from {{tips.name}}</a>
+      </div>
+    </div>
+
+    {% for post in site.categories[tips.name] limit:3 %}
+        <div class="col-3 post-preview">
+          <p>{{post.date | date_to_long_string}}</p>
+          <img src="{{post.featured-image}}" />
+          <h3>{{post.title}}</h3>
+          <p>{{post.description}}</p>
+          <a href="{{post.url}}">Read More</a>
+        </div>
+    {% endfor %}
+
+
+
+  {% endfor %}
+</section>

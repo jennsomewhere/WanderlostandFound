@@ -6,10 +6,11 @@ featured-image: /Images/desert.jpg
 blog-menu: true
 sidebar: true
 categories:
-  - oceania
-  - hiking
-  - outdoor
-  - destinations
+  - Oceania
+
+tags:
+  - Hiking
+  - Outdoors
 ---
 
 ## A Heading
