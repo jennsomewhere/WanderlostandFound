@@ -23,20 +23,19 @@ continents:
   </div>
 </section>
 
-<section class="grid-center-noGutter">
+<section class="grid-center-noGutter-spaceBewteen">
   {% for continent in page.continents %}
     <div class="col-12 grid-middle-spaceBetween-noGutter category-title">
       <div class="col-4">
-        <p>{{continents.name}}</p>
+        <p>{{continent.name}}</p>
       </div>
       <div class="col-4">
-        <a href="/categories/{{continents.name}}">more about {{continents.name}}</a>
+        <a href="/categories/{{continent.name}}">more about {{continent.name}}</a>
       </div>
     </div>
-    <div class="col">
-    </div>
 
-    {% for post in site.categories.{{continents.name}} limit:3 %}
+
+    {% for post in site.categories[continent.name] limit:3 %}
       <div class="col-3 post-preview">
         <p>{{post.date | date_to_long_string}}</p>
         <img src="{{post.featured-image}}" />
@@ -46,8 +45,7 @@ continents:
       </div>
     {% endfor %}
 
-    <div class="col">
-    </div>
+
 
   {% endfor %}
 </section>
