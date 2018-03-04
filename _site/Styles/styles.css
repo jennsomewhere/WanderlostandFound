@@ -5,54 +5,203 @@
   box-sizing: border-box;
 }
 
-*{
+/* *{
   border: 1px solid rgb(220,220,220);
-}
+} */
+/* ----- COLORS -----*/
+/* rgb(204,170,163) dusty pink */
+/* rgb(214,147,134) pink
+rgb(105,96,94) brownish
+rgb(192,242,222) mint
+rgb(116,145,134) dark green  */
+
+/* ----- LAYOUT, PADDING, MARGIN ---- */
 header, section, footer {
-  padding: 5%;
+  padding: 0;
 }
-/* ----- Fonts ----- */
+
+/* ----- TYPOGRAPHY ----- */
 @font-face {
-    font-family: 'Zilap';
-    src: url('../fonts/zilap_africa_demo-webfont.woff2') format('woff2'),
-         url('../fonts/zilap_africa_demo-webfont.woff') format('woff');
+    font-family: 'gogoiadeco';
+    src: url('../fonts/gogoia-deco-webfont.woff2') format('woff2'),
+         url('../fonts/gogoia-deco-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'wilderness';
+    src: url('../fonts/wildernesstypeface-regular-webfont.woff2') format('woff2'),
+         url('../fonts/wildernesstypeface-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 
-/* ----- Nav Styles ---- */
+}
+body {
+  font-size: 16px;
+  color: black;
+  font-family: 'Poiret One', cursive;
+  text-decoration: none;
+}
+
+h2 {
+  font-family: 'gogoiadeco';
+}
+
+/* ----- UNIVERSAL STYLES ---- */
+.logo a {
+  font-size: 2rem;
+  text-decoration: none;
+  padding: 5%;
+  color: rgb(105,96,94);
+}
+.welcome-title {
+  font-family: 'wilderness';
+  font-size: 10rem;
+  text-align: center;
+  color: rgb(105,96,94);
+}
+
+/* ----- NAV STYLES ---- */
 .dropdown-nav{
   position: relative;
 }
 .dropdown-content{
-  position:absolute;
-  background-color: white;
+  position: absolute;
+  background-color: rgb(204,170,163);
+  color: rgb(105,96,94);
   display: none;
   text-decoration: none;
+  padding: 14px;
+}
+#navabout {
+  left: -30px;
+}
+#navtraveltips {
+  left: -30px;
+}
+#navextras {
+  left: -35px
 }
 .dropdown-nav:hover .dropdown-content{
   display: block;
+  text-align: center;
+  min-width: 100%;
+  white-space: nowrap;
+  border-radius: 5px;
+  left: -5px;
+}
+.mainMenu a {
+  text-decoration: none;
+  white-space: nowrap;
+  font-size: 1.7rem;
+  color: rgb(105,96,94);
+  padding: 3%;
+  text-transform: uppercase;
+}
+.dropdown-content a {
+  font-size: 1.3rem;
+  display: block;
+  padding: 5%;
 
 }
-
-/* ----- Header Styles ----- */
-.cartIcon a {
-  font-size: 2rem;
-  color: grey;
+.headerMain {
+  background-color: rgb(204,170,163);
 }
-
+/* ----- HEADER STYLES ---- */
 .center {
   text-align: center;
 }
-.connectIcons a{
+
+
+/* ----- HERO STYLES ---- */
+.hero h1 {
+  text-align: center;
+  font-family: 'gogoiadeco';
+  font-size: 6rem;
+  letter-spacing: 10px;
+}
+.hero .subhead {
+  font-family: 'Poiret One', cursive;
+  text-align: center;
   font-size: 2rem;
 }
 
-/* ----- Header Styles ---- */
-
-h2 {
-  font-family: 'Zilap';
+/* ----- GENERAL STYLES ---- */
+.welcome {
+  text-align: center;
+  font-size: 1.3rem;
+  position: relative;
+  top: -45px;
 }
+.blocktitle {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* ----- FOOTER STYLES ---- */
+footer a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: bold;
+}
+footer {
+  background-color: rgb(204,170,163)
+}
+footer .connectIcons .blocktitle {
+  color: rgb(204,170,163);
+  background-color: rgb(105,96,94);
+}
+.connectIcons a{
+  font-size: 2.5rem;
+  color: rgb(105,96,94);
+  padding: 5%;
+}
+#search {
+  font-family: 'Poiret One', cursive;
+  color: rgb(105,96,94);
+  font-size: 1.1rem;
+  text-transform: lowercase;
+  border-radius: 3px;
+  border: 1px solid rgb(105,96,94);
+  margin: 0.3rem;
+  padding: 0.5rem;
+}
+footer .sidebarButtons a {
+  background-colour: rgb(105,96,94);
+  border-radius: 3px;
+}
+/* ----- MAILING LIST STYLES ---- */
+.mailingList {
+  text-transform: lowercase;
+  font-family: 'Poiret One', cursive;
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 1.5rem;
+  background-color: rgb(204,170,163);
+}
+input {
+  font-family: 'Poiret One', cursive;
+  color: rgb(105,96,94);
+  font-size: 1.1rem;
+  text-transform: lowercase;
+  border-radius: 3px;
+  border: 1px solid rgb(105,96,94);
+  margin: 0.3rem;
+  width: 30%;
+  padding: 0.5rem;
+}
+input[type=submit]{
+  background-color: rgb(105,96,94);
+  color: rgb(204,170,163);
+  border-radius: 3px;
+  border: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  width: 30%;
+}
+
 img {
   max-width: 100%;
 }
@@ -61,3 +210,6 @@ img {
   background-position: center;
   min-height: 50vh;
 }
+
+
+/* ----- MEDIA QUERIES ---- */
