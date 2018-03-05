@@ -18,16 +18,20 @@
     <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
     <link rel="stylesheet" type="text/css" href="/Styles/gridlex.css">
     <link rel="stylesheet" type="text/css" href="/Styles/styles.css">
+    <meta name="viewport" content="width=device-width, user-scalable=0">
 
   </head>
 
   <body>
+    <div id="loading" class="grid-middle-center-noGutter-noBottom">
+      <h6>LOST x FOUND x WANDER x ASTOUND</h6>
+    </div>
   
 
   
     <header class="grid-middle-center-noGutter headerMain">
   <div class="col-3 grid-middle-center-noGutter logo">
-    <a href="/"><h2> WANDERLOST + FOUND</h2></a>
+    <a href="/"><h3> WANDERLOST + FOUND</h3></a>
   </div>
   <div class="col">
   </div>
@@ -94,9 +98,10 @@
 
   
 
-  <div class="grid-noGutter">
-    <div class="col">
-      <div class="grid-middle-center-noGutter post-bg-image" style="background-image:url('/Images/iceland.jpg')">
+
+    <div class="grid-center">
+      <div class="col">
+        <div class="grid-middle-center-noGutter post-bg-image" style="background-image:url('/Images/iceland.jpg')">
   <h1>Iceland</h1>
 </div>
 
@@ -106,47 +111,51 @@
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
 
+      </div>
+
+      
+      
+<div class="col-3 sidebar">
+  <aside class="grid-middle-center-noGutter">
+    <div class="grid-middle-center-noGutter sidebar-imagetext">
+      <p class="blocktitle">HI, I'M JENN!</p>
+      <div class="profile">
+        <img style="border-radius: 5px;" src="/Images/jenn.jpg"/>
+        <p class="center">I'm a travel and lifestyle blogger, influencer, and content creator blah blah blah a short intro about me here</p>
+      </div>
     </div>
 
-  
-    <aside class="col-3 grid-middle-center-noGutter">
-  <div class="grid-middle-center-noGutter sidebar-imagetext">
-    <p class="blocktitle">HI, I'M JENN!</p>
-    <img src="/Images/profile.jpg"/>
-    <p class="center">I'm a travel and lifestyle blogger, influencer, and content creator blah blah blah a short intro about me here</p>
-  </div>
+    <div class="col-12 connectIcons center">
+      <p class="blocktitle">Connect With Me</p>
+      <p>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-pinterest"></i></a>
+      </p>
+      <p>
+        <a href="#"><i class="fas fa-plus"></i></a>
+        <a href="#"><i class="fas fa-envelope"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+      </p>
+    </div>
+    <div class="col-12 grid-middle-center-noGutter mailingList sidebar-mail">
+      <p>Do you want travel inspiration, tips, and giveaways sent straight to your Inbox? Join the Wanderlost + Found community!</p>
+      <form>
+        <input placeholder="First Name" type="text">
+        <input placeholder="Email" type="email">
+        <input type="submit" value="SUBSCRIBE">
+      </form>
+    </div>
 
-  <div class="connectIcons center">
-    <p>Connect With Me</p>
-    <p>
-      <a href="#"><i class="fab fa-facebook"></i></a>
-      <a href="#"><i class="fab fa-instagram"></i></a>
-      <a href="#"><i class="fab fa-pinterest"></i></a>
-    </p>
-    <p>
-      <a href="#"><i class="fas fa-plus"></i></a>
-      <a href="#"><i class="fas fa-envelope"></i></a>
-      <a href="#"><i class="fab fa-twitter"></i></a>
-    </p>
-  </div>
-  <div class="col-12 grid-middle-center-noGutter">
-    <p>Do you want travel inspiration, tips, and giveaways sent straight to your Inbox? Join the Wanderlost + Found community!</p>
-    <form>
-      <input placeholder="First Name" type="text">
-      <input placeholder="Email" type="email">
-      <input type="submit" value="SUBSCRIBE">
-    </form>
-  </div>
+    <div class="col-12 buttons center">
+      <p><a href="#">Work With Me Button</a></p>
+      <p><a href="#">Media Kit Button</a></p>
+    </div>
+  </aside>
+</div>
 
-  <div class="col-12 sidebarButtons center">
-    <p><a href="#">Work With Me Button</a></p>
-    <p><a href="#">Media Kit Button</a></p>
-  </div>
-</aside>
-
-  
-
-  </div>
+      
+    </div>
 
   <section class="grid-spaceAround-middle-center-noGutter mailingList">
   <div>
@@ -160,8 +169,10 @@
 </section>
 
 
-  <section class="ig">
-  <!-- LightWidget WIDGET --><script src="//lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/b5e2ab6894da56199e23cfd16bb880e8.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
+  <section id="ig">
+  <div id="ig-filler"></div>
+  <script src="//lightwidget.com/widgets/lightwidget.js"></script>
+  <iframe class="ig" src="//lightwidget.com/widgets/b5e2ab6894da56199e23cfd16bb880e8.html" scrolling="no" frameBorder="0"></iframe>
 </section>
 
 

@@ -4,7 +4,9 @@
   margin:0;
   box-sizing: border-box;
 }
-
+body{
+  overflow-x: hidden;
+}
 /* *{
   border: 1px solid rgb(220,220,220);
 } */
@@ -15,9 +17,13 @@ rgb(105,96,94) brownish
 rgb(192,242,222) mint
 rgb(116,145,134) dark green  */
 
+.background-black {
+  background-color: #000;
+}
+
 /* ----- LAYOUT, PADDING, MARGIN ---- */
-header, section, footer {
-  padding: 0;
+.padded5{
+  padding: 5rem;
 }
 
 /* ----- TYPOGRAPHY ----- */
@@ -37,33 +43,75 @@ header, section, footer {
 
 }
 body {
-  font-size: 16px;
+  font-size: 18px;
   color: black;
   font-family: 'Poiret One', cursive;
   text-decoration: none;
 }
 
-h2 {
+h1 {
+  font-size: 6rem;
   font-family: 'gogoiadeco';
+  letter-spacing: 10px;
 }
-
-/* ----- UNIVERSAL STYLES ---- */
-.logo a {
-  font-size: 2rem;
-  text-decoration: none;
+/* HERO IMAGE TEXT */
+h2 {
+  font-size: 6rem;
+  font-family: 'gogoiadeco';
+  letter-spacing: 10px;
+  text-align: center;
+}
+/* LOGO */
+h3 {
+  font-family: 'gogoiadeco';
+  font-size: 2.5rem;
+  letter-spacing: 3px;
   padding: 5%;
   color: rgb(105,96,94);
+}
+h4{
+
+}
+h5{
+
+}
+/*LOADING SCREEN*/
+h6 {
+  font-family: 'Poiret One', cursive;
+  font-size: 3rem;
+}
+
+/* ----- HELPERS ---- */
+
+.position-relative {
+  position: relative;
+}
+.position-absolute {
+  position: absolute;
+}
+.center {
+  text-align: center;
 }
 .welcome-title {
   font-family: 'wilderness';
   font-size: 10rem;
   text-align: center;
   color: rgb(105,96,94);
+  transform: rotateZ(-6deg);
+}
+
+/* ----- UNIVERSAL STYLES ---- */
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
 /* ----- NAV STYLES ---- */
+
 .dropdown-nav{
   position: relative;
+  z-index: 2;
 }
 .dropdown-content{
   position: absolute;
@@ -82,10 +130,13 @@ h2 {
 #navextras {
   left: -35px
 }
+#navcollab {
+  left: -4px;
+}
 .dropdown-nav:hover .dropdown-content{
   display: block;
   text-align: center;
-  min-width: 100%;
+  min-width: 200px;
   white-space: nowrap;
   border-radius: 5px;
   left: -5px;
@@ -102,61 +153,169 @@ h2 {
   font-size: 1.3rem;
   display: block;
   padding: 5%;
-
 }
 .headerMain {
   background-color: rgb(204,170,163);
 }
+
 /* ----- HEADER STYLES ---- */
-.center {
-  text-align: center;
+
+header {
+  padding-right: 2%;
+}
+.logo a {
+  text-decoration: none;
 }
 
-
 /* ----- HERO STYLES ---- */
+
+.hero {
+  position: relative;
+}
+.hero-text {
+  position: absolute;
+  color: white;
+  z-index: 900;
+  top: calc(50% - 4.5rem);
+  width: 100%;
+}
+.hero video {
+  width: 100vw;
+  min-height: 60vh;
+}
 .hero h1 {
   text-align: center;
-  font-family: 'gogoiadeco';
-  font-size: 6rem;
-  letter-spacing: 10px;
 }
 .hero .subhead {
   font-family: 'Poiret One', cursive;
   text-align: center;
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 /* ----- GENERAL STYLES ---- */
+
 .welcome {
+  padding-top: 2%;
+}
+
+.welcome-subhead {
   text-align: center;
   font-size: 1.3rem;
   position: relative;
-  top: -45px;
+  top: -35px;
 }
 .blocktitle {
   text-transform: uppercase;
   text-align: center;
   font-weight: bold;
-}
-
-/* ----- FOOTER STYLES ---- */
-footer a {
-  text-decoration: none;
-  color: inherit;
-  font-weight: bold;
-}
-footer {
-  background-color: rgb(204,170,163)
-}
-footer .connectIcons .blocktitle {
+  border-radius: 3px;
+  padding-bottom: 0.5rem;
   color: rgb(204,170,163);
   background-color: rgb(105,96,94);
+  width: 100%;
+  margin: 0 0 1rem 0;
+  letter-spacing: 5px;
+}
+
+.img-home {
+  padding: 10% 7%;
+}
+/* home page category images */
+.blog-background,
+.about-background,
+.shop-background {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../Images/blog.jpg");
+  background-size: cover;
+  z-index: 0;
+  opacity: .5;
+}
+.bg-blog,
+.bg-about,
+.bg-shop {
+  z-index: 1;
+}
+.bg-blog:hover .hover-text,
+.bg-about:hover .hover-text,
+.bg-shop:hover .hover-text {
+  display: block;
+}
+.bg-blog:hover .default-text,
+.bg-about:hover .default-text,
+.bg-shop:hover .default-text {
+  display: none;
+}
+.about-background {
+  background-image: url("../Images/jenn.jpg");
+}
+.shop-background {
+  background-image: url("../Images/polaroid.jpg");
+}
+
+[class*=bg]{
+  min-height: 25vw;
+  min-width: 25vw;
+  background-size: cover;
+  background-position: center;
+  font-family: 'wilderness';
+  font-size: 7rem;
+  text-align: center;
+  text-transform: lowercase;
+  color: white;
+  text-decoration: none;
+  }
+.hover-text {
+    display: none;
+}
+[class*=bg]:hover {
+  outline: 2px solid white;
+  outline-offset: -25px;
+  font-family: 'Poiret One', cursive;
+  font-size: 2rem;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* ----- FOOTER & SIDEBAR STYLES ---- */
+
+footer {
+  background-color: rgb(204,170,163);
+  padding: 1% 1% 0 1%;
+}
+.connectIcons {
+  background-color: rgb(204,170,163);
+}
+footer .connectIcons .blocktitle,
+aside .connectIcons .blocktitle {
+  padding: 1.3%;
+  margin-top: 2.7%;
+}
+aside .sidebar-imagetext .blocktitle{
+  margin-top: 1rem;
+}
+
+aside> div {
+  margin: 1rem 0;
+  padding: 5%;
+}
+.sidebar {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 .connectIcons a{
   font-size: 2.5rem;
   color: rgb(105,96,94);
-  padding: 5%;
+  padding: 10%;
+  display: inline-block;
 }
+aside .connectIcons a{
+  font-size: 2rem;
+  padding: 2% 11%;
+}
+
 #search {
   font-family: 'Poiret One', cursive;
   color: rgb(105,96,94);
@@ -164,13 +323,52 @@ footer .connectIcons .blocktitle {
   text-transform: lowercase;
   border-radius: 3px;
   border: 1px solid rgb(105,96,94);
-  margin: 0.3rem;
+  margin: 0 0 1rem 0;
   padding: 0.5rem;
+  letter-spacing: 5px;
 }
-footer .sidebarButtons a {
-  background-colour: rgb(105,96,94);
+#search input {
+  width: 100%;
+}
+.buttons a {
+  background-color: rgb(105,96,94);
+  display: inline-block;
+  padding: 1.3%;
+  width: 100%;
+  margin: 0.5rem 0;
   border-radius: 3px;
+  text-decoration: none;
+  color: rgb(204,170,163);
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: bold;
 }
+.copyright {
+  text-align:justify;
+}
+
+#ig {
+  position: relative;
+  height: auto;
+}
+#ig-filler {
+  width: 19vw;
+  height: 19vw;
+  background-color: black;
+}
+#ig iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+iframe.ig {
+  width: 100%;
+  height: auto;
+}
+
+
 /* ----- MAILING LIST STYLES ---- */
 .mailingList {
   text-transform: lowercase;
@@ -187,7 +385,6 @@ input {
   text-transform: lowercase;
   border-radius: 3px;
   border: 1px solid rgb(105,96,94);
-  margin: 0.3rem;
   width: 30%;
   padding: 0.5rem;
 }
@@ -199,9 +396,26 @@ input[type=submit]{
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 5px;
-  width: 30%;
+  width: 35%;
 }
-
+.sidebar-imagetext {
+  background-color: rgb(204,170,163);
+}
+.sidebar-mail {
+  font-size: 1.2rem;
+}
+.sidebar-mail input{
+  width: 48%;
+  margin: 0.5rem 0;
+}
+.sidebar-mail input[type=submit]{
+  width: 100%;
+  margin-bottom: 2.5rem;
+}
+.buttons {
+  background-color: rgb(204,170,163);
+}
+/* ----- BLOG POST STYLES ----- */
 img {
   max-width: 100%;
 }
@@ -211,5 +425,29 @@ img {
   min-height: 50vh;
 }
 
+/* ----- LOADING SCREEN ---- */
+#loading {
+  position:fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  background-color: rgb(204,170,163);
+  color: rgb(105,96,94);
+  transition: opacity 1s linear;
+}
+
+body.loaded #loading {
+  opacity: 0;
+}
 
 /* ----- MEDIA QUERIES ---- */
+@media screen and (min-width: 769px) {
+
+  #ig-filler {
+    width: 9vw;
+    height: 9vw;
+  }
+
+}

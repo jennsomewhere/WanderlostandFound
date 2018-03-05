@@ -18,10 +18,14 @@
     <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
     <link rel="stylesheet" type="text/css" href="/Styles/gridlex.css">
     <link rel="stylesheet" type="text/css" href="/Styles/styles.css">
+    <meta name="viewport" content="width=device-width, user-scalable=0">
 
   </head>
 
   <body>
+    <div id="loading" class="grid-middle-center-noGutter-noBottom">
+      <h6>LOST x FOUND x WANDER x ASTOUND</h6>
+    </div>
   {% if page.main-menu == true %}
     {% include main-menu.html %}
   {% endif %}
@@ -42,16 +46,16 @@
     {% include pagetitle.html %}
   {% endif %}
 
-  <div class="grid-noGutter">
-    <div class="col">
-      {{content}}
+
+    <div class="grid-center">
+      <div class="col">
+        {{content}}
+      </div>
+
+      {% if page.sidebar == true %}
+      {% include sidebar.html %}
+      {% endif %}
     </div>
-
-  {% if page.sidebar == true %}
-    {% include sidebar.html %}
-  {% endif %}
-
-  </div>
 
   {% include mailing-list.html %}
 

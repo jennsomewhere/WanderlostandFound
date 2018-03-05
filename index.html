@@ -9,27 +9,33 @@ blog-menu: false
 
 {% include ig.html %}
 
-<section>
+<section class="welcome">
   <p class="welcome-title">hello!</p>
-  <p class="welcome">welcome to wanderlost + found</p>
+  <p class="welcome-subhead">welcome to wanderlost + found</p>
 </section>
 
 {% include hero.html %}
 
-<section class="grid-middle-center-noGutter center">
-  <div class="col">
+<section class="grid-middle-center-spaceAround-noGutter img-home">
+  <div class="position-relative background-black">
+    <div class="blog-background position-absolute"></div>
+    <a href="/blog" class="grid-middle-center-noGutter bg-blog position-relative">
+      <p class="default-text">Blog</p>
+      <p class="hover-text">Get Wanderlost</p>
+    </a>
   </div>
-  <div class="col-3_sm-12 grid-middle-center-noGutter main-categories">
-    <h3>Blog</h3>
+  <div class="position-relative background-black">
+    <div class="about-background position-absolute"></div>
+    <a href="/mystory" class="grid-middle-center-noGutter bg-about position-relative">
+      <p class="default-text">My Story</p>
+      <P class="hover-text">Read More</p>
+    </a>
   </div>
-  <div class="col-3_sm-12 grid-middle-center-noGutter main-categories">
-    <h3>My Story</h3>
+  <div class="position-relative background-black">
+    <div class="shop-background position-absolute"></div>
+    <a href="shop" class="grid-middle-center-noGutter bg-shop position-relative">
+      <p class="default-text">Shop</p>
+      <p class="hover-text">Goodies</p>
+    </a>
   </div>
-  <div class="col-3_sm-12 grid-middle-center-noGutter main-categories">
-    <h3>Shop</h3>
-  </div>
-  <div class="col">
-  </div>
-</section>
-
 </section>

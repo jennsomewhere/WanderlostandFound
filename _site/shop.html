@@ -18,14 +18,18 @@
     <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
     <link rel="stylesheet" type="text/css" href="/Styles/gridlex.css">
     <link rel="stylesheet" type="text/css" href="/Styles/styles.css">
+    <meta name="viewport" content="width=device-width, user-scalable=0">
 
   </head>
 
   <body>
+    <div id="loading" class="grid-middle-center-noGutter-noBottom">
+      <h6>LOST x FOUND x WANDER x ASTOUND</h6>
+    </div>
   
     <header class="grid-middle-noGutter headerMain">
   <div class="col-3 grid-middle-center logo">
-    <a href="/"><h2>WANDERLOST + FOUND</h2></a>
+    <a href="/"><h3>WANDERLOST + FOUND</h3></a>
   </div>
   <div class="col">
   </div>
@@ -41,7 +45,7 @@
     </span>
     <span class="dropdown-nav">
       <a href="/mystory">Collaborate</a>
-        <div class="dropdown-content">
+        <div id="navcollab" class="dropdown-content">
           <a href="/work-with-me">Work With Me</a>
           <a href="#">Media Kit</a>
         </div>
@@ -63,16 +67,19 @@
 
   
 
-  <div class="grid-noGutter">
-    <div class="col">
-      <section class="ig">
-  <!-- LightWidget WIDGET -->
-  <script src="//lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/7b4f2cf4dc0e565f9821e6bab6356d95.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
+
+    <div class="grid-center">
+      <div class="col">
+        <section id="ig">
+  <div id="ig-filler"></div>
+  <script src="//lightwidget.com/widgets/lightwidget.js"></script>
+  <iframe class="ig" src="//lightwidget.com/widgets/b5e2ab6894da56199e23cfd16bb880e8.html" scrolling="no" frameBorder="0"></iframe>
 </section>
 
-<section class="welcome center">
-  <p>Shop</p>
-  <p>Pay Me All Your Dollars</p>
+<div class="padded5">
+<section class="welcome">
+  <p class="welcome-title">Shop</p>
+  <p class="welcome-subhead">Pay Me All Your Dollars</p>
 </section>
 
 <section class="banner grid-middle-center-noGutter">
@@ -99,12 +106,12 @@
 </section>
 
 </section>
+</div>
 
+      </div>
+
+      
     </div>
-
-  
-
-  </div>
 
   <section class="grid-spaceAround-middle-center-noGutter mailingList">
   <div>
@@ -118,50 +125,61 @@
 </section>
 
 
-  <section class="ig">
-  <!-- LightWidget WIDGET --><script src="//lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/b5e2ab6894da56199e23cfd16bb880e8.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
+  <section id="ig">
+  <div id="ig-filler"></div>
+  <script src="//lightwidget.com/widgets/lightwidget.js"></script>
+  <iframe class="ig" src="//lightwidget.com/widgets/b5e2ab6894da56199e23cfd16bb880e8.html" scrolling="no" frameBorder="0"></iframe>
 </section>
 
 
   
-    <footer class="grid-noGutter">
-  <div class="col-2">
+    <footer class="grid-center-spaceBetween">
+  <div class="col-2 copyright">
     <h5><i class="far fa-copyright"></i> Copyright and Disclosure</h5>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
   </div>
-  <div class="col-3">
+  <div class="col-4-middle-center-noGutter explore-map">
     <p>currently exploring if i can get the map to work</p>
   </div>
-  <div class="grid col-2">
-    <div class="col-12">
-    </div>
-    <div class="col-12 sidebarButtons center">
-      <p><a href="/work-with-me.html">Work With Me Button</a></p>
-    </div>
-  </div>
-  <div class="grid col-2">
-    <div id="search" class="col-12">
-      <p class="blocktitle">SEARCH</p>
-      <form>
-        <input placeholder="Search" type="text">
-      </form>
-    </div>
-    <div class="col-12 sidebarButtons center">
-      <p><a href="#">Media Kit</a></p>
+  <div class="col">
+    <div class="grid-center-noGutter">
+      <div id="search" class="col-12">
+        <p class="blocktitle">SEARCH</p>
+        <form>
+          <input placeholder="Search" type="text">
+        </form>
+      </div>
+      <div class="col-12 buttons center">
+        <p><a href="/work-with-me.html">Work With Me</a></p>
+      </div>
+      <div class="col-12 buttons center">
+        <p><a href="#">Media Kit</a></p>
+      </div>
     </div>
   </div>
-  <div class="col-3 connectIcons center">
+
+  <div class="col-3-center-noGutter connectIcons center">
     <p class="blocktitle">Connect With Me</p>
-    <p>
-      <a href="http://www.facebook.com/wanderlost.and.found"><i class="fab fa-facebook"></i></a>
-      <a href="http://www.instagram.com/wanderlost.and.found"><i class="fab fa-instagram"></i></a>
-      <a href="#"><i class="fab fa-pinterest"></i></a>
-    </p>
-    <p>
-      <a href="#"><i class="fas fa-plus"></i></a>
-      <a href="#"><i class="fas fa-envelope"></i></a>
-      <a href="#"><i class="fab fa-twitter"></i></a>
-    </p>
+    <div class="grid-middle-center-noGutter">
+      <p class="col-4">
+        <a href="http://www.facebook.com/wanderlost.and.found"><i class="fab fa-facebook"></i></a>
+      </p>
+      <p class="col-4">
+        <a href="http://www.instagram.com/wanderlost.and.found"><i class="fab fa-instagram"></i></a>
+      </p>
+      <p class="col-4">
+        <a href="#"><i class="fab fa-pinterest"></i></a>
+      </p>
+      <p class="col-4">
+        <a href="#"><i class="fas fa-plus"></i></a>
+      </p>
+      <p class="col-4">
+        <a href="#"><i class="fas fa-envelope"></i></a>
+      </p>
+      <p class="col-4">
+        <a href="#"><i class="fab fa-twitter"></i></a>
+      </p>
+    </div>
   </div>
   </footer>
 
