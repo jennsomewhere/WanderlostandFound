@@ -1,11 +1,18 @@
-<section class="grid-noGutter">
-  {% for post in page.posts %}
-  <div class="col-3 post-preview">
-    <p>{{post.date | date_to_long_string}}</p>
-    <img src="{{post.featured-image}}" />
-    <h3>{{post.title}}</h3>
-    <p>{{post.description}}</p>
-    <a href="{{post.url}}">Read More</a>
-  </div>
-  {% endfor %}
+<div class="padded3">
+  <section class="grid-center-noGutter-spaceBetween">
+    {% for post in page.posts %}
+    <div class="col-3 post-preview">
+      <!-- <p>{{post.date | date_to_long_string}}</p> -->
+      <a href="{{post.url}}">
+        <div class="post-preview" style="background-image:url('{{post.featured-image}}')" />
+        </div>
+      </a>
+      <h5 class="padded1">{{post.title}}</h5>
+      <p class="descript padded1">{{post.description}}</p>
+      <div class="readmore">
+        <a href="{{post.url}}">Read More</a>
+      </div>
+    </div>
+    {% endfor %}
 </section>
+</div>
