@@ -24,7 +24,10 @@
 
   <body>
     <div id="loading" class="grid-middle-center-noGutter-noBottom">
-      <h6>LOST x FOUND x WANDER x ASTOUND</h6>
+      <div class="center">
+        <h6>LOST x FOUND x WANDER x ASTOUND</h6>
+          <img class="load-gif" src="../Videos/animat-compass.gif"/>
+      </div>
     </div>
   
     <header class="grid-middle-noGutter headerMain">
@@ -44,7 +47,7 @@
         </div>
     </span>
     <span class="dropdown-nav">
-      <a href="/mystory">Collaborate</a>
+      <a href="/work-with-me">Collaborate</a>
         <div id="navcollab" class="dropdown-content">
           <a href="/work-with-me">Work With Me</a>
           <a href="#">Media Kit</a>
@@ -67,15 +70,15 @@
 
   
     <section class="grid-spaceAround-center-noGutter welcome-center">
-  <p class="welcome-title">My Story</p>
+  <p class="page-title">My Story</p>
 </section>
 
   
 
 
-    <div class="grid-center">
+    <div class="grid">
       <div class="col">
-        <div class="padded5">
+        <div class="padded3">
 <section class="grid-noGutter">
   <image src="../Images/agung.jpg"/>
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -97,7 +100,7 @@
       </div>
     </div>
 
-    <div class="col-12 connectIcons center">
+    <div id="connectbox" class="col-12 connectIcons center">
       <p class="blocktitle">Connect With Me</p>
       <p>
         <a href="#"><i class="fab fa-facebook"></i></a>
@@ -110,19 +113,27 @@
         <a href="#"><i class="fab fa-twitter"></i></a>
       </p>
     </div>
-    <div class="col-12 grid-middle-center-noGutter mailingList sidebar-mail">
-      <p>Do you want travel inspiration, tips, and giveaways sent straight to your Inbox? Join the Wanderlost + Found community!</p>
+    <div id="subscribe" class="col-12 grid-middle-center-noGutter mailingList sidebar-mail">
+      <div class="sidebar-mail">
+        <p>Do you want travel inspiration, tips, and giveaways sent straight to your Inbox?</p><br><p>Join the Wanderlost + Found community!</p>
+      </div>
       <form>
         <input placeholder="First Name" type="text">
         <input placeholder="Email" type="email">
-        <input type="submit" value="SUBSCRIBE">
+        <input id="subscribe" type="submit" value="SUBSCRIBE">
       </form>
     </div>
-
-    <div class="col-12 buttons center">
-      <p><a href="#">Work With Me Button</a></p>
-      <p><a href="#">Media Kit Button</a></p>
+    <div>
     </div>
+
+      <div id="collabButton" class="col-12 buttons center">
+        <p><a href="#">Work With Me</a></p>
+      </div>
+      <div id="collabButton" class="col-12 buttons center">
+        <p><a href="#">Media Kit</a></p>
+      </div>
+      <div class="spacer">
+      </div>
   </aside>
 </div>
 
@@ -151,6 +162,7 @@
   
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="/js/sticky.js"></script>
   <script src="/js/main.js"></script>
 
   </body>

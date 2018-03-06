@@ -9,6 +9,7 @@ categories:
 tags:
   - Hiking
   - Outdoors
+  - Destinations
 featured-image: /Images/moraine.jpg
 ---
 

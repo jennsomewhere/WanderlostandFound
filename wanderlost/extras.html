@@ -1,13 +1,13 @@
 ---
 layout: categories
-title: Extras
+title: Travel Tips
 sidebar: true
 pagetitle: true
 main-menu: false
 blog-menu: true
 top-ig: true
 hero: false
-Categories:
+editorials:
   - name: On My Mind
     cat: on-my-mind
   - name: Lists
@@ -18,30 +18,38 @@ Categories:
     cat: resources
 ---
 
-
-<section class="grid-center-noGutter-spaceBewteen">
-  {% for extras in page.Categories %}
-    <div class="col-12 grid-middle-spaceBetween-noGutter category-title">
-      <div class="col-4">
-        <p>{{extras.name}}</p>
-      </div>
-      <div class="col-4">
-        <p></p>
-        <a href="/tag/{{extras.cat}}">see all from {{extras.name}}</a>
-      </div>
-    </div>
-
-    {% for post in site.categories[extras.name] limit:3 %}
-        <div class="col-3 post-preview">
-          <p>{{post.date | date_to_long_string}}</p>
-          <img src="{{post.featured-image}}" />
-          <h3>{{post.title}}</h3>
-          <p>{{post.description}}</p>
-          <a href="{{post.url}}">Read More</a>
+<div class="padded3">
+  <section class="grid-center-noGutter-spaceBetween">
+    {% for category in page.editorials %}
+      <div class="col-12 grid-middle-center-spaceBetween-noGutter catpreview">
+        <div class="col-4">
+          <p class="padded1">{{category.name}}</p>
         </div>
-    {% endfor %}
+        <div class="col-4-middle-center-noGutter">
+          <div class="right">
+          <a href="/tag/{{category.cat}}"><span class="underline">see all from {{category.name}}</span></a>
+        </div>
+        </div>
+      </div>
+
+
+      {% for post in site.tags[category.name] limit:3 %}
+          <div class="col-3 post-preview">
+            <!-- <p>{{post.date | date_to_long_string}}</p> -->
+            <a href="{{post.url}}">
+              <div class="post-preview" style="background-image:url('{{post.featured-image}}')" />
+            </div>
+            </a>
+            <h5 class="padded1">{{post.title}}</h5>
+            <p class="descript padded1">{{post.description}}</p>
+            <div class="readmore">
+              <a href="{{post.url}}">Read More</a>
+            </div>
+          </div>
+      {% endfor %}
 
 
 
-  {% endfor %}
-</section>
+      {% endfor %}
+    </section>
+  </div>

@@ -22,8 +22,11 @@ rgb(116,145,134) dark green  */
 }
 
 /* ----- LAYOUT, PADDING, MARGIN ---- */
-.padded5{
-  padding: 5rem;
+.padded3{
+  padding: 3rem;
+}
+.padded1{
+  padding: 1rem;
 }
 
 /* ----- TYPOGRAPHY ----- */
@@ -70,17 +73,24 @@ h3 {
   color: rgb(105,96,94);
 }
 h4{
-
+  font-size: 5rem;
 }
 h5{
+  font-size: 1rem;
+  text-transform: uppercase;
 
 }
 /*LOADING SCREEN*/
-h6 {
+#loading h6 {
   font-family: 'Poiret One', cursive;
   font-size: 3rem;
 }
-
+.load-gif {
+  width: 200px;
+  opacity:0.8;
+  display: block;
+  margin:auto;
+}
 /* ----- HELPERS ---- */
 
 .position-relative {
@@ -92,12 +102,19 @@ h6 {
 .center {
   text-align: center;
 }
-.welcome-title {
+.welcome-title,
+.page-title {
   font-family: 'wilderness';
   font-size: 10rem;
   text-align: center;
   color: rgb(105,96,94);
   transform: rotateZ(-6deg);
+}
+.underline {
+  text-decoration: underline;
+}
+.right {
+  text-align: right;
 }
 
 /* ----- UNIVERSAL STYLES ---- */
@@ -105,6 +122,13 @@ h6 {
 a {
   text-decoration: none;
   color: inherit;
+}
+.page-title {
+  position: relative;
+  top: 35px;
+}
+img {
+  max-width: 100%;
 }
 
 /* ----- NAV STYLES ---- */
@@ -121,22 +145,28 @@ a {
   text-decoration: none;
   padding: 14px;
 }
-#navabout {
+#navabout { /*main menu dropdown*/
+  left: -80px;
+}
+#navcollab { /*man menu dropdown*/
   left: -30px;
+}
+#wanderlost {
+  left: -20px;
 }
 #navtraveltips {
-  left: -30px;
+  left: -54px;
 }
 #navextras {
-  left: -35px
+  left: -78px
 }
-#navcollab {
-  left: -4px;
+#navaboutb {
+  left: -88px;
 }
 .dropdown-nav:hover .dropdown-content{
   display: block;
   text-align: center;
-  min-width: 200px;
+  min-width: 250px;
   white-space: nowrap;
   border-radius: 5px;
   left: -5px;
@@ -215,6 +245,7 @@ header {
   width: 100%;
   margin: 0 0 1rem 0;
   letter-spacing: 5px;
+  padding: 1.3%;
 }
 
 .img-home {
@@ -231,7 +262,7 @@ header {
   background-image: url("../Images/blog.jpg");
   background-size: cover;
   z-index: 0;
-  opacity: .5;
+  opacity: .75;
 }
 .bg-blog,
 .bg-about,
@@ -287,23 +318,23 @@ footer {
 }
 .connectIcons {
   background-color: rgb(204,170,163);
+
 }
-footer .connectIcons .blocktitle,
+/* footer .connectIcons .blocktitle,
 aside .connectIcons .blocktitle {
   padding: 1.3%;
   margin-top: 2.7%;
-}
-aside .sidebar-imagetext .blocktitle{
-  margin-top: 1rem;
-}
+} */
 
-aside> div {
-  margin: 1rem 0;
+aside > div {
+  margin: 4rem 0;
   padding: 5%;
+  border-radius: 3px;
 }
 .sidebar {
-  margin-top: 5rem;
-  margin-bottom: 5rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  padding-right: 3rem;
 }
 .connectIcons a{
   font-size: 2.5rem;
@@ -311,21 +342,29 @@ aside> div {
   padding: 10%;
   display: inline-block;
 }
-aside .connectIcons a{
-  font-size: 2rem;
-  padding: 2% 11%;
-}
 
+aside .connectIcons a{
+  font-size: 3rem;
+  padding: 5% 7%;
+}
+#connectbox {
+  padding:5%;
+}
+#collabButton {
+  padding: 5%;
+  background-color: rgb(204,170,163);
+  margin-bottom: 1rem;
+  border-radius: 3px;
+}
 #search {
   font-family: 'Poiret One', cursive;
   color: rgb(105,96,94);
-  font-size: 1.1rem;
   text-transform: lowercase;
   border-radius: 3px;
   border: 1px solid rgb(105,96,94);
-  margin: 0 0 1rem 0;
-  padding: 0.5rem;
-  letter-spacing: 5px;
+  margin: 0 0 2rem 0;
+  text-decoration: none;
+  padding: 2%;
 }
 #search input {
   width: 100%;
@@ -367,7 +406,9 @@ iframe.ig {
   width: 100%;
   height: auto;
 }
-
+.sidebar-imagetext {
+  background-color: rgb(204,170,163);
+}
 
 /* ----- MAILING LIST STYLES ---- */
 .mailingList {
@@ -378,7 +419,8 @@ iframe.ig {
   padding: 1.5rem;
   background-color: rgb(204,170,163);
 }
-input {
+input,
+textarea {
   font-family: 'Poiret One', cursive;
   color: rgb(105,96,94);
   font-size: 1.1rem;
@@ -398,28 +440,105 @@ input[type=submit]{
   letter-spacing: 5px;
   width: 35%;
 }
-.sidebar-imagetext {
-  background-color: rgb(204,170,163);
-}
+
 .sidebar-mail {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
 }
 .sidebar-mail input{
   width: 48%;
   margin: 0.5rem 0;
 }
+#subscribe {
+  padding: 5%;
+  margin: 0;
+}
 .sidebar-mail input[type=submit]{
   width: 100%;
-  margin-bottom: 2.5rem;
 }
 .buttons {
+  margin: 0;
+}
+.spacer {
+  height: 30vh;
+  width: 100%;
   background-color: rgb(204,170,163);
 }
-/* ----- BLOG POST STYLES ----- */
-img {
-  max-width: 100%;
+/* ----- CONTACT STYLES ---- */
+
+.contactForm input,
+.contactForm textarea {
+  width: 80%;
+  margin-top: 1rem;
 }
-.post-bg-image {
+
+/* ----- BLOG PAGE STYLES ----- */
+
+.interactive-map {
+  padding: 10%;
+}
+.descript {
+  font-size: 1rem;
+}
+.catpreview {
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-top: 1px solid rgb(65,59,58);
+  color: rgb(65,59,58);
+}
+.post-preview {
+  min-height: 20vw;
+  min-width: 20vw;
+  background-size: cover;
+  background-position: center;
+  padding-top: 1rem;
+  transition: 0.25s ease;
+}
+.post-preview:hover img {
+  opacity: .8;
+}
+.post-preview h5 {
+  font-size: 1.2rem;
+  color: rgb(65,59,58);
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.post-preview p {
+  padding-top: 0;
+}
+.catpreview a {
+  font-weight: normal;
+  text-transform: lowercase;
+  font-style: italic;
+  font-size: 1.2rem;
+  color: rgb(65,59,58);
+  transition: 0.25s ease;
+}
+.readmore {
+  border: 2px solid rgb(65,59,58);
+  color: rgb(65,59,58);
+  font-weight: bold;
+  text-transform: lowercase;
+  width: 38%;
+  padding: 5%;
+  position: relative;
+  bottom: 0;
+  left: 1rem;
+  transition: 0.25s ease;
+  margin-bottom: 3rem;
+}
+.readmore:hover {
+  background-color: rgb(65,59,58);
+  color: white;
+}
+.catpreview:hover a {
+  opacity: .5;
+}
+/* ----- BLOG POST STYLES ----- */
+
+.post-background-img {
   background-size: cover;
   background-position: center;
   min-height: 50vh;

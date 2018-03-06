@@ -11,6 +11,9 @@ categories:
 tags:
   - Hiking
   - Outdoors
+  - Editorial
+  - Destinations
+  - Lists
 ---
 
 ## A Heading

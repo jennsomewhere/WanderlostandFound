@@ -10,3 +10,6 @@ function loaded () {
 }
 
 $(window).on('load', loaded);
+
+
+$(".stick-in-parent").stick_in_parent();

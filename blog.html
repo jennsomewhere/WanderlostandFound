@@ -1,118 +1,96 @@
 ---
 layout: default
-title: Wanderlost + Found Blog
+title: Wanderlost + Found
 sidebar: true
-pagetitle: false
+pagetitle: true
 main-menu: false
 blog-menu: true
 top-ig: true
-hero: true 
+hero: true
 ---
-
-
-<section class="grid-center-noGutter">
-  <div class="col-12 grid-middle-spaceBetween-noGutter category-title">
-    <div class="col-4">
-      <p>Wanderlost In:</p>
+<div class="padded3">
+  <section class="grid-center-noGutter-spaceBetween">
+    <div class="col-12 grid-middle-center-spaceBetween-noGutter catpreview">
+      <div class="col-4">
+        <p class="padded1">Wanderlost In</p>
+      </div>
+      <div class="col-4-middle-center-noGutter">
+        <div class="right">
+        <a href="/wanderlost/in"><span class="underline">Get Wanderlost in More Destinations</span></a>
+      </div>
+      </div>
     </div>
-    <div class="col-4">
-      <a href="#">Get Wanderlost in More Destinations</a>
-    </div>
-  </div>
-  <div class="col">
-  </div>
 
-  {% for post in site.categories.destinations limit:3 %}
-  <div class="col-3 post-preview">
-    <p>{{post.date | date_to_long_string}}</p>
-    <img src="{{post.featured-image}}" />
-    <h3>{{post.title}}</h3>
-    <p>{{post.description}}</p>
-    <a href="{{post.url}}">Read More</a>
-  </div>
-  {% endfor %}
-  <div class="col">
-  </div>
-</section>
-
-<section class="grid-center-noGutter">
-  <div class="col-12 grid-middle-spaceBetween-noGutter category-title">
-    <div class="col-4">
-      <p>Travel Tips</p>
-    </div>
-    <div class="col-4">
-      <a href="#">See All in Travel Tips</a>
-    </div>
-  </div>
-  <div class="col">
-  </div>
-
-  {% for post in site.categories.traveltips limit:3 %}
-  <div class="col-3 post-preview">
-    <p>{{post.date | date_to_long_string}}</p>
-    <img src="{{post.featured-image}}" />
-    <h3>{{post.title}}</h3>
-    <p>{{post.description}}</p>
-    <a href="{{post.url}}">Read More</a>
-  </div>
-  {% endfor %}
-  <div class="col">
-  </div>
-</section>
-
-<section class="grid-center-noGutter">
-  <div class="col-12 grid-middle-spaceBetween-noGutter category-title">
-    <div class="col-4">
-      <p>Editorial</p>
-    </div>
-    <div class="col-4">
-      <a href="#">See All in Editorial</a>
-    </div>
-  </div>
-  <div class="col">
-  </div>
-
-  {% for post in site.categories.extras limit:3 %}
-  <div class="col-3 post-preview">
-    <p>{{post.date | date_to_long_string}}</p>
-    <img src="{{post.featured-image}}" />
-    <h3>{{post.title}}</h3>
-    <p>{{post.description}}</p>
-    <a href="{{post.url}}">Read More</a>
-  </div>
-  {% endfor %}
-  <div class="col">
-  </div>
-</section>
-
-<!-- <section class="grid-center-noGutter">
-  <div class="col-6-grid-center-noGutter most-popular">
-    <h5>Most Popular</h5>
-    <p> This is a placeholder for my most popular posts which Danny Boy is going to look into the plugins for me.</p>
-
-
-    {% for post in site.posts %}
-    <div class="col-12 post-preview">
-      <p>{{post.date | date_to_long_string}}</p>
-      <img src="{{post.featured-image}}" />
-      <h3>{{post.title}}</h3>
-      <p>{{post.description}}</p>
-      <a href="{{post.url}}">Read More</a>
-    </div>
+    {% for post in site.tags.Destinations limit:3 %}
+        <div class="col-3 post-preview">
+          <!-- <p>{{post.date | date_to_long_string}}</p> -->
+          <a href="{{post.url}}">
+            <div class="post-preview" style="background-image:url('{{post.featured-image}}')" />
+          </div>
+          </a>
+          <h5 class="padded1">{{post.title}}</h5>
+          <p class="descript padded1">{{post.description}}</p>
+          <div class="readmore">
+            <a href="{{post.url}}">Read More</a>
+          </div>
+        </div>
     {% endfor %}
+  </section>
 
-  </div>
-
-  <div class="col-6-grid-center-noGutter most-popular">
-    <h5>Explore</h5>
-    <p> This is a placeholder for randomly chosen posts from my blog which I have no idea how to make happen but I'm hoping Dan will also be able to figure out and help me with.</p>
-
-    {% for post in site.posts limit:3 %}
-    <div class="col-12 post-preview">
-      <p>{{post.date | date_to_long_string}}</p>
-      <img src="{{post.featured-image}}" />
-      <h3>{{post.title}}</h3>
-      <p>{{post.description}}</p>
-      <a href="{{post.url}}">Read More</a>
+  <section class="grid-center-noGutter-spaceBetween">
+    <div class="col-12 grid-middle-center-spaceBetween-noGutter catpreview">
+      <div class="col-4">
+        <p class="padded1">Travel Tips</p>
+      </div>
+      <div class="col-4-middle-center-noGutter">
+        <div class="right">
+        <a href="/wanderlost/travel-tips"><span class="underline">Get More Travel Tips</span></a>
+      </div>
+      </div>
     </div>
-    {% endfor %} -->
+
+    {% for post in site.tags.Tips limit:3 %}
+        <div class="col-3 post-preview">
+          <!-- <p>{{post.date | date_to_long_string}}</p> -->
+          <a href="{{post.url}}">
+            <div class="post-preview" style="background-image:url('{{post.featured-image}}')" />
+          </div>
+          </a>
+          <h5 class="padded1">{{post.title}}</h5>
+          <p class="descript padded1">{{post.description}}</p>
+          <div class="readmore">
+            <a href="{{post.url}}">Read More</a>
+          </div>
+        </div>
+    {% endfor %}
+  </section>
+
+  <section class="grid-center-noGutter-spaceBetween">
+    <div class="col-12 grid-middle-center-spaceBetween-noGutter catpreview">
+      <div class="col-4">
+        <p class="padded1">Editorial</p>
+      </div>
+      <div class="col-4-middle-center-noGutter">
+        <div class="right">
+        <a href="/wanderlost/extras"><span class="underline">See More in Editorial</span></a>
+      </div>
+      </div>
+    </div>
+
+    {% for post in site.tags.Editorial limit:3 %}
+        <div class="col-3 post-preview">
+          <!-- <p>{{post.date | date_to_long_string}}</p> -->
+          <a href="{{post.url}}">
+            <div class="post-preview" style="background-image:url('{{post.featured-image}}')" />
+          </div>
+          </a>
+          <h5 class="padded1">{{post.title}}</h5>
+          <p class="descript padded1">{{post.description}}</p>
+          <div class="readmore">
+            <a href="{{post.url}}">Read More</a>
+          </div>
+        </div>
+    {% endfor %}
+  </section>
+
+</div>
