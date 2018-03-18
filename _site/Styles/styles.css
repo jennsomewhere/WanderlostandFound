@@ -247,7 +247,9 @@ header {
   letter-spacing: 5px;
   padding: 1.3%;
 }
-
+.blocktitle .search {
+  padding top: 0.5rem;
+}
 .img-home {
   padding: 10% 7%;
 }
@@ -314,7 +316,7 @@ header {
 
 footer {
   background-color: rgb(204,170,163);
-  padding: 1% 1% 0 1%;
+  padding: 2% 1% 0 1%;
 }
 .connectIcons {
   background-color: rgb(204,170,163);
@@ -366,9 +368,7 @@ aside .connectIcons a{
   text-decoration: none;
   padding: 2%;
 }
-#search input {
-  width: 100%;
-}
+
 .buttons a {
   background-color: rgb(105,96,94);
   display: inline-block;
@@ -460,8 +460,7 @@ input[type=submit]{
 .buttons {
   margin: 0;
 }
-.spacer {
-  height: 30vh;
+.search {
   width: 100%;
   background-color: rgb(204,170,163);
 }
@@ -543,6 +542,97 @@ input[type=submit]{
   background-position: center;
   min-height: 50vh;
 }
+/* ----- EXPLORING MAP ----- */
+#chartdiv {
+  width: 50vw;
+  height: 50vw;
+
+}
+
+.map-marker {
+    /* adjusting for the marker dimensions
+    so that it is centered on coordinates */
+    margin-left: -8px;
+    margin-top: -8px;
+}
+.map-marker.map-clickable {
+    cursor: pointer;
+}
+.pulse {
+    width: 10px;
+    height: 10px;
+    border: 5px solid #ccaaa3;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    background-color: #ffffff;
+    z-index: 10;
+    position: absolute;
+  }
+.map-marker .dot {
+    border: 10px solid #ccaaa3;
+    background: transparent;
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    border-radius: 60px;
+    height: 50px;
+    width: 50px;
+    -webkit-animation: pulse 3s ease-out;
+    -moz-animation: pulse 3s ease-out;
+    animation: pulse 3s ease-out;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    z-index: 1;
+    opacity: 0;
+  }
+  @-moz-keyframes pulse {
+   0% {
+      -moz-transform: scale(0);
+      opacity: 0.0;
+   }
+   25% {
+      -moz-transform: scale(0);
+      opacity: 0.1;
+   }
+   50% {
+      -moz-transform: scale(0.1);
+      opacity: 0.3;
+   }
+   75% {
+      -moz-transform: scale(0.5);
+      opacity: 0.5;
+   }
+   100% {
+      -moz-transform: scale(1);
+      opacity: 0.0;
+   }
+  }
+  @-webkit-keyframes "pulse" {
+   0% {
+      -webkit-transform: scale(0);
+      opacity: 0.0;
+   }
+   25% {
+      -webkit-transform: scale(0);
+      opacity: 0.1;
+   }
+   50% {
+      -webkit-transform: scale(0.1);
+      opacity: 0.3;
+   }
+   75% {
+      -webkit-transform: scale(0.5);
+      opacity: 0.5;
+   }
+   100% {
+      -webkit-transform: scale(1);
+      opacity: 0.0;
+   }
+  }
 
 /* ----- LOADING SCREEN ---- */
 #loading {

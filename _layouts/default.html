@@ -16,6 +16,7 @@
     <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
     <title>{{page.title}}</title>
     <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    
     <link rel="stylesheet" type="text/css" href="/Styles/gridlex.css">
     <link rel="stylesheet" type="text/css" href="/Styles/styles.css">
     <meta name="viewport" content="width=device-width, user-scalable=0">
@@ -59,9 +60,9 @@
       {% include sidebar.html %}
       {% endif %}
     </div>
-
+  <section class="grid-spaceAround-middle-center-noGutter mailingList">
   {% include mailing-list.html %}
-
+  </section>
   {% include ig.html %}
 
   {% if page.sidebar == false %}
