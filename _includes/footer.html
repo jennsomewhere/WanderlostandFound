@@ -1,12 +1,14 @@
-<footer class="grid-center-spaceBetween">
-  <div class="col-2 copyright">
+<footer>
+  <div class="grid-center-spaceBetween">
+  <div class="col-2 disclosure">
     <h5><i class="far fa-copyright"></i> Copyright and Disclosure</h5>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <p>Unauthorized use and/or duplication of this material without express and written permission from the above named is strictly prohibited. Excerpts and links may be used, provided that full and clear credit is given to Jennifer Simpson and Wanderlost + Found with appropriate and specific direction to the original content.<br><br>
+    Disclosure: income for Wanderlost + Found may come from sponsorships, commission on sales from affiliate links and advertising, or direct sales of my creative works. All opinions are always my own, and it will never cost you anything to click on a link. Thank-you for supporting my blog!</p>
   </div>
-  <div class="col-4-center-noGutter explore-map">
+  <div class="col-3-center-noGutter explore-map">
     {% include exploring.html %}
   </div>
-  <div class="col">
+  <div class="col-3">
     <div class="grid-center-noGutter">
       <div id="search" class="col-12">
         {% include search.html %}
@@ -15,34 +17,17 @@
         <p><a href="/work-with-me.html">Work With Me</a></p>
       </div>
       <div class="col-12 buttons center">
-        <p><a href="#">Media Kit</a></p>
+        <p><a href="/media-kit.html" target="_blank">Media Kit</a></p>
       </div>
+
     </div>
   </div>
 
   <div class="col-3">
-  <div class="grid-center-noGutter connectIcons center">
-    <p class="blocktitle">Connect With Me</p>
-    <div class="grid-middle-center-noGutter">
-      <p class="col-4">
-        <a href="http://www.facebook.com/wanderlost.and.found"><i class="fab fa-facebook"></i></a>
-      </p>
-      <p class="col-4">
-        <a href="http://www.instagram.com/wanderlost.and.found"><i class="fab fa-instagram"></i></a>
-      </p>
-      <p class="col-4">
-        <a href="http://www.pinterest.com/wanderlostfound/boards/"><i class="fab fa-pinterest"></i></a>
-      </p>
-      <p class="col-4">
-        <a href="http://www.bloglovin.com/@wanderlostandfound"><i class="fas fa-plus"></i></a>
-      </p>
-      <p class="col-4">
-        <a href="mailto:hello@getwanderlostandfound.com?Subject=Hello" target="_top"><i class="fas fa-envelope"></i></a>
-      </p>
-      <p class="col-4">
-        <a href="http://twitter.com/WanderlostFound"><i class="fab fa-twitter"></i></a>
-      </p>
-    </div>
+    {% include connectwithme.html %}
   </div>
+  </div>
+  <div class="center copyright">
+    <p>©Jennifer Simpson/Wanderlost + Found, 2018.</p>
   </div>
   </footer>

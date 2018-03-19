@@ -117,6 +117,7 @@ h5{
   text-align: right;
 }
 
+
 /* ----- UNIVERSAL STYLES ---- */
 
 a {
@@ -352,7 +353,8 @@ aside .connectIcons a{
 #connectbox {
   padding:5%;
 }
-#collabButton {
+#collabButton,
+.aside-explore-map {
   padding: 5%;
   background-color: rgb(204,170,163);
   margin-bottom: 1rem;
@@ -382,8 +384,14 @@ aside .connectIcons a{
   letter-spacing: 5px;
   font-weight: bold;
 }
+.disclosure {
+  font-size: 0.7rem;
+}
 .copyright {
-  text-align:justify;
+  font-size: 1rem;
+  padding: 0.5%;
+  text-transform: uppercase;
+  border-top: 0.5px solid rgb(105,96,94);
 }
 
 #ig {
@@ -439,6 +447,7 @@ input[type=submit]{
   text-transform: uppercase;
   letter-spacing: 5px;
   width: 35%;
+  cursor: pointer;
 }
 
 .sidebar-mail {
@@ -542,11 +551,112 @@ input[type=submit]{
   background-position: center;
   min-height: 50vh;
 }
-/* ----- EXPLORING MAP ----- */
-#chartdiv {
-  width: 50vw;
-  height: 50vw;
 
+/* ----- MEDIA KIT STYLES ----- */
+.media-header {
+  background-color: rgb(105,96,94);
+  min-height: 100vh;
+  color: white;
+  }
+.name {
+  font-family: 'wilderness';
+  font-size: 12rem;
+  transform: rotateZ(-6deg);
+}
+.brandname {
+  font-family: 'Poiret One', cursive;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+.media-header .bottom-text {
+  font-size: 2rem;
+  text-transform: lowercase;
+  position: absolute;
+  bottom: 0;
+  left: 17vw;
+}
+.header-img {
+  background-image: url(../Images/iceland.jpg);
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+.introduction {
+  min-height: 30vh;
+}
+.media-heading {
+  font-size: 1.5rem;
+  letter-spacing: 5px;
+  font-weight: bold;
+  text-decoration: underline;
+  text-underline-position: under;
+  color: rgb(105,96,94);
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 2%;
+}
+.stats {
+   background-color: rgba(105,96,94,0.1);
+}
+.stat-value {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: rgb(105,96,94);
+}
+.stat-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: rgb(105,96,94);
+}
+.workwithme {
+   background-color: rgba(105,96,94,0.1);
+}
+.workwithme a {
+  text-decoration: underline;
+}
+.gallery-item {
+  background-size: cover;
+  background-position: center;
+  min-height: 20vw;
+  min-width: 20vw;
+  padding: 1%;
+}
+.gallery {
+ padding: 3% 5%;
+
+}
+.gallery [class*=col] {
+  padding: 2px;
+}
+.connectwithme {
+  background-color: rgb(105,96,94);
+  color: white;
+  padding-bottom: 2%;
+}
+.connectwithme .blocktitle {
+  color: white;
+  padding: 2%;
+  font-size: 1.5rem;
+  text-decoration: underline;
+  text-underline-position: under;
+}
+.connectwithme p {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.connectwithme a {
+  font-size: 3rem;
+}
+.linktext a {
+  font-size: 1.2rem;
+  padding: 2%;
+}
+
+/* ----- EXPLORING MAP ----- */
+#mapdiv {
+  background-color: #ccaaa3;
+  min-height: 10vw;
+  font-family: 'Poiret One', cursive;
 }
 
 .map-marker {
@@ -561,7 +671,7 @@ input[type=submit]{
 .pulse {
     width: 10px;
     height: 10px;
-    border: 5px solid #ccaaa3;
+    border: 5px solid rgb(192,242,222);
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
     border-radius: 30px;
@@ -570,7 +680,7 @@ input[type=submit]{
     position: absolute;
   }
 .map-marker .dot {
-    border: 10px solid #ccaaa3;
+    border: 10px solid rgb(192,242,222);
     background: transparent;
     -webkit-border-radius: 60px;
     -moz-border-radius: 60px;
