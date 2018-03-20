@@ -28,7 +28,10 @@ rgb(116,145,134) dark green  */
 .padded1{
   padding: 1rem;
 }
-
+.padded3lr {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
 /* ----- TYPOGRAPHY ----- */
 @font-face {
     font-family: 'gogoiadeco';
@@ -78,7 +81,6 @@ h4{
 h5{
   font-size: 1rem;
   text-transform: uppercase;
-
 }
 /*LOADING SCREEN*/
 #loading h6 {
@@ -116,8 +118,15 @@ h5{
 .right {
   text-align: right;
 }
-
-
+.image {
+  border-radius: 3px;
+}
+.bold {
+  font-weight: bold;
+}
+.italic {
+  font-style: italic;
+}
 /* ----- UNIVERSAL STYLES ---- */
 
 a {
@@ -481,6 +490,31 @@ input[type=submit]{
   margin-top: 1rem;
 }
 
+.contact-text {
+  font-size: 1.3rem;
+  padding: 0 3rem;
+}
+.contact-text a {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.contact-text .image {
+  background-position: center;
+  background-size: cover;
+  min-height: 50vh;
+}
+.headeralt {
+  padding-bottom: 1rem;
+}
+.headeralt h5 {
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+}
+.headeralt h4 {
+  font-size: 1.3rem;
+
+}
 /* ----- BLOG PAGE STYLES ----- */
 
 .interactive-map {
@@ -617,12 +651,12 @@ input[type=submit]{
 .gallery-item {
   background-size: cover;
   background-position: center;
-  min-height: 20vw;
-  min-width: 20vw;
+  min-height: 15vw;
+  min-width: 15vw;
   padding: 1%;
 }
 .gallery {
- padding: 3% 5%;
+ padding: 3% 12%;
 
 }
 .gallery [class*=col] {
