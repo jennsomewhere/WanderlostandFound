@@ -32,6 +32,9 @@ rgb(116,145,134) dark green  */
   padding-left: 3rem;
   padding-right: 3rem;
 }
+.padded8lr {
+  padding: 0 8rem;
+}
 /* ----- TYPOGRAPHY ----- */
 @font-face {
     font-family: 'gogoiadeco';
@@ -56,9 +59,12 @@ body {
 }
 
 h1 {
-  font-size: 6rem;
-  font-family: 'gogoiadeco';
-  letter-spacing: 10px;
+  color: white;
+  font-family: 'wilderness';
+  font-size: 10rem;
+  text-align: center;
+  transform: rotateZ(-6deg);
+  font-weight: normal;
 }
 /* HERO IMAGE TEXT */
 h2 {
@@ -70,7 +76,7 @@ h2 {
 /* LOGO */
 h3 {
   font-family: 'gogoiadeco';
-  font-size: 2.5rem;
+  font-size: 2.4rem;
   letter-spacing: 3px;
   padding: 5%;
   color: rgb(105,96,94);
@@ -209,19 +215,28 @@ header {
 
 /* ----- HERO STYLES ---- */
 
-.hero {
+/* THIS IS FOR THE HERO VIDEO */
+/* .hero {
   position: relative;
 }
-.hero-text {
+.hero video {
+  width: 100vw;
+  min-height: 60vh;
+} */
+/* .hero-text {
   position: absolute;
   color: white;
   z-index: 900;
   top: calc(50% - 4.5rem);
   width: 100%;
-}
-.hero video {
-  width: 100vw;
-  min-height: 60vh;
+} */
+.hero {
+  min-height: 100vh;
+  text-align: center;
+  color: white;
+  background-image: url('../Images/road2.jpg');
+  background-size: cover;
+  background-position: center;
 }
 .hero h1 {
   text-align: center;
@@ -533,6 +548,7 @@ input[type=submit]{
 .post-preview {
   min-height: 20vw;
   min-width: 20vw;
+  border-radius: 3px;
   background-size: cover;
   background-position: center;
   padding-top: 1rem;
@@ -584,7 +600,10 @@ input[type=submit]{
   background-size: cover;
   background-position: center;
   min-height: 50vh;
+  border-radius: 3px;
+  filter: opacity(.8);
 }
+
 
 /* ----- MEDIA KIT STYLES ----- */
 .media-header {
@@ -776,6 +795,14 @@ input[type=submit]{
       -webkit-transform: scale(1);
       opacity: 0.0;
    }
+  }
+
+/* ----- INTERACTIVE MAP ---- */
+  #mapdiv2 {
+    background-color: #ffffff;
+    width: 100%;
+    min-height: 66vh;
+    font-family: 'Poiret One', cursive;
   }
 
 /* ----- LOADING SCREEN ---- */

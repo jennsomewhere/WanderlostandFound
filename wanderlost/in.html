@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Wanderlost In
-sidebar: true
+sidebar: false
 pagetitle: true
 main-menu: false
 blog-menu: true
@@ -22,11 +22,12 @@ continents:
 ---
 <div class="padded3">
   <section>
-  <div class="interactive-map center">
+  <!-- <div class="interactive-map center">
     <h4>INTERACTIVE MAP PLACEHOLDER</h4>
-  </div>
+  </div> -->
+  {% include blogmap.html %}
   <div class="interactive-map">
-    <p>Click on the map above to explore blog posts from a country, OR, explore by continent below:</p>
+    <p class="editable contact-text center">Click on the map above to explore blog posts from a country, OR, explore by continent below:</p>
   </div>
 </section>
 
