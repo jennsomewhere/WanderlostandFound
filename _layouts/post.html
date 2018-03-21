@@ -2,10 +2,60 @@
 layout: default
 ---
 
-<section class="padded3">
-<div class="grid-middle-center-noGutter post-background-img" style="background-image:url('{{page.featured-image}}')">
-  <h1>{{page.title}}</h1>
-</div>
+<!-- POST -->
+<section class="padded3 post">
+  <div style="padding-bottom:3rem">
+    <div class="grid-middle-center-noGutter post-background-img" style="background-image:url('{{page.featured-image}}')">
+      <h1>{{page.title}}</h1>
+    </div>
+  </div>
 
 {{content}}
+</section>
+
+<!-- RELATED POSTS -->
+<div class="padded3"></div>
+<div class="center">
+  <h5 class="underline">Related Posts</h5>
+</div>
+<div class="padded3">
+  <section class="grid-center-noGutter-spaceBetween">
+  {% for post in site.related_posts limit: 5 %}
+  <div class="col-2 related-post-preview">
+    <!-- <p>{{post.date | date_to_long_string}}</p> -->
+    <a href="{{post.url}}">
+      <div class="related-post-preview" style="background-image:url('{{post.featured-image}}')" />
+      </div>
+    </a>
+    <h5 class="">{{post.title}}</h5>
+    <p class="descript">{{post.description}}</p>
+    <a href="{{post.url}}">
+      <div class="readmore">Read More</div>
+    </a>
+  </div>
+  {% endfor %}
+</section>
+</div>
+
+<!-- COMMENT SECTION -->
+<section class="padded3">
+  {% if page.comments %}
+  <div id="disqus_thread"></div>
+    <script>
+    var disqus_shortname = '{{ site.disqus_shortname }}';
+    var disqus_config = function () {
+      this.page.url = "{{ page.url | prepend: site.url }}";
+      this.page.identifier = "{{ page.id }}";
+    };
+
+    (function() {  // DON'T EDIT BELOW THIS LINE
+      var d = document, s = d.createElement('script');
+
+      s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+    </script>
+    <noscript>Enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+  {% endif %}
 </section>

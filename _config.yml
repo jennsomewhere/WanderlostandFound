@@ -1,5 +1,6 @@
 
-
+url: http://getwanderlostandfound.com
+disqus_shortname: wanderlostandfound 
 
 plugins:
   - jekyll-analytics

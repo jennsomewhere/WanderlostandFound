@@ -52,12 +52,16 @@ rgb(116,145,134) dark green  */
     font-weight: normal;
     font-style: normal;
 
+font-family: 'Poiret One', cursive;
+font-family: 'Raleway', sans-serif;
+
 }
 body {
   font-size: 18px;
   color: black;
   font-family: 'Poiret One', cursive;
   text-decoration: none;
+  font-size: 1.2rem;
 }
 
 h1 {
@@ -70,26 +74,28 @@ h1 {
 }
 /* HERO IMAGE TEXT */
 h2 {
-  font-size: 6rem;
-  font-family: 'gogoiadeco';
-  letter-spacing: 10px;
-  text-align: center;
+  font-size: 3.4rem;
+}
+h3{
+  font-size: 3rem;
+}
+h4{
+  font-size: 2.5rem;
+}
+h5{
+  font-size: 2rem;
+  text-transform: uppercase;
 }
 /* LOGO */
-h3 {
+h6 {
   font-family: 'gogoiadeco';
   font-size: 2.4rem;
   letter-spacing: 3px;
   padding: 5%;
+  text-align: center;
   color: rgb(105,96,94);
 }
-h4{
-  font-size: 5rem;
-}
-h5{
-  font-size: 1rem;
-  text-transform: uppercase;
-}
+
 /*LOADING SCREEN*/
 #loading h6 {
   font-family: 'Poiret One', cursive;
@@ -97,9 +103,9 @@ h5{
 }
 .load-gif {
   width: 200px;
-  opacity:0.8;
+  opacity: 0.5;
   display: block;
-  margin:auto;
+  margin: auto;
 }
 /* ----- HELPERS ---- */
 
@@ -236,12 +242,16 @@ header {
   min-height: 100vh;
   text-align: center;
   color: white;
+  font-family: 'gogoiadeco';
+
+  letter-spacing: 10px;
   background-image: url('../Images/road2.jpg');
   background-size: cover;
   background-position: center;
 }
-.hero h1 {
+.hero h2 {
   text-align: center;
+  font-size: 6rem;
 }
 .hero .subhead {
   font-family: 'Poiret One', cursive;
@@ -257,9 +267,10 @@ header {
 
 .welcome-subhead {
   text-align: center;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   position: relative;
   top: -35px;
+  color: rgb(105,96,94);
 }
 .blocktitle {
   text-transform: uppercase;
@@ -347,7 +358,9 @@ footer {
 }
 .connectIcons {
   background-color: rgb(204,170,163);
-
+}
+footer h5 {
+  font-size: 1rem;
 }
 /* footer .connectIcons .blocktitle,
 aside .connectIcons .blocktitle {
@@ -364,6 +377,7 @@ aside > div {
   margin-top: 3rem;
   margin-bottom: 3rem;
   padding-right: 3rem;
+  color: rgb(65,59,58);
 }
 .connectIcons a{
   font-size: 2.5rem;
@@ -411,7 +425,7 @@ aside .connectIcons a{
   font-weight: bold;
 }
 .disclosure {
-  font-size: 0.7rem;
+  font-size: 0.75rem;
 }
 .copyright {
   font-size: 1rem;
@@ -452,6 +466,7 @@ iframe.ig {
   font-size: 1.5rem;
   padding: 1.5rem;
   background-color: rgb(204,170,163);
+  color: rgb(65,59,58);
 }
 input,
 textarea {
@@ -568,6 +583,29 @@ input[type=submit]{
 .post-preview p {
   padding-top: 0;
 }
+.related-post-preview {
+  min-height: 10vw;
+  min-width: 10vw;
+  border-radius: 3px;
+  background-size: cover;
+  background-position: center;
+  padding-top: 1rem;
+  transition: 0.25s ease;
+  font-size: 0.5rem;
+}
+.related-post-preview h5 {
+  font-size: 0.8rem;
+  color: rgb(65,59,58);
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding: 1rem 0;
+}
+.related-post-preview .readmore {
+  font-size:0.6rem;
+}
+.related-post-preview .descript {
+  padding-bottom: 1rem;
+}
 .catpreview a {
   font-weight: normal;
   text-transform: lowercase;
@@ -581,6 +619,7 @@ input[type=submit]{
   color: rgb(65,59,58);
   font-weight: bold;
   text-transform: lowercase;
+  font-size: 1.1rem;
   width: 38%;
   padding: 5%;
   position: relative;
@@ -601,11 +640,15 @@ input[type=submit]{
 .post-background-img {
   background-size: cover;
   background-position: center;
-  min-height: 50vh;
+  min-height: 77vh;
   border-radius: 3px;
-  filter: opacity(.8);
+  filter: opacity(.7);
+
 }
 
+.post {
+  font-family: 'Raleway';
+}
 
 /* ----- MEDIA KIT STYLES ----- */
 .media-header {

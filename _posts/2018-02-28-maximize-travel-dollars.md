@@ -5,6 +5,7 @@ description: A post about making your money go further
 featured-image: /Images/travel-plan.jpg
 blog-menu: true
 sidebar: true
+comments: true
 tags:
   - Tips
   - Extras

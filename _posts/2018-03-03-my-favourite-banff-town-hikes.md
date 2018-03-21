@@ -4,6 +4,7 @@ title: My Favourite Banff Town Hikes
 description: My favouite hikes that are accessible from the town of Banff without having to drive anywhere to get to the trailheads.
 blog-menu: true
 sidebar: true
+comments: true
 categories:
   - North America
 tags:

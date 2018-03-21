@@ -5,6 +5,7 @@ description: A post about something and something else.
 featured-image: /Images/desert.jpg
 blog-menu: true
 sidebar: true
+comments: true  
 categories:
   - Oceania
 
