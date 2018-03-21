@@ -27,41 +27,43 @@ continents:
   </div> -->
   {% include blogmap.html %}
   <div class="interactive-map">
-    <p class="editable contact-text center">Click on the map above to explore blog posts from a country, OR, explore by continent below:</p>
+    <p class="editable contact-text center">Click on highlighted countries in the map above to explore blog posts, OR, explore by continent below:</p>
   </div>
 </section>
 
-<section class="grid-center-noGutter-spaceBetween">
-  {% for continent in page.continents %}
-    <div class="col-12 grid-middle-center-spaceBetween-noGutter catpreview">
-      <div class="col-4">
-        <p class="padded1">{{continent.name}}</p>
-      </div>
-      <div class="col-4-middle-center-noGutter">
-        <div class="right">
-        <a href="/category/{{continent.cat}}"><span class="underline">see all about {{continent.name}}</span></a>
-      </div>
-      </div>
-    </div>
-
-
-    {% for post in site.categories[continent.name] limit:3 %}
-        <div class="col-3 post-preview">
-          <!-- <p>{{post.date | date_to_long_string}}</p> -->
-          <a href="{{post.url}}">
-            <div class="post-preview" style="background-image:url('{{post.featured-image}}')" />
-          </div>
-          </a>
-          <h5 class="padded1">{{post.title}}</h5>
-          <p class="descript padded1">{{post.description}}</p>
-          <div class="readmore">
-            <a href="{{post.url}}">Read More</a>
-          </div>
+<section class="padded6lr">
+  <section class="grid-center-noGutter-spaceBetween">
+    {% for continent in page.continents %}
+      <div class="col-12 grid-middle-center-spaceBetween-noGutter catpreview">
+        <div class="col-4">
+          <p class="padded1">{{continent.name}}</p>
         </div>
-    {% endfor %}
+        <div class="col-4-middle-center-noGutter">
+          <div class="right">
+          <a href="/category/{{continent.cat}}"><span class="underline">see all about {{continent.name}}</span></a>
+        </div>
+        </div>
+      </div>
+
+
+      {% for post in site.categories[continent.name] limit:3 %}
+          <div class="col-3 post-preview">
+            <!-- <p>{{post.date | date_to_long_string}}</p> -->
+            <a href="{{post.url}}">
+              <div class="post-preview" style="background-image:url('{{post.featured-image}}')" />
+            </div>
+            </a>
+            <h5 class="padded1">{{post.title}}</h5>
+            <p class="descript padded1">{{post.description}}</p>
+            <div class="readmore">
+              <a href="{{post.url}}">Read More</a>
+            </div>
+          </div>
+      {% endfor %}
 
 
 
-    {% endfor %}
+      {% endfor %}
+    </section>
   </section>
 </div>

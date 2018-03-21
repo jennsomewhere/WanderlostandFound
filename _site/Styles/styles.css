@@ -29,8 +29,10 @@ rgb(116,145,134) dark green  */
   padding: 1rem;
 }
 .padded3lr {
-  padding-left: 3rem;
-  padding-right: 3rem;
+  padding: 0 3rem;
+}
+.padded6lr {
+  padding: 0 6rem;
 }
 .padded8lr {
   padding: 0 8rem;
@@ -533,7 +535,7 @@ input[type=submit]{
 /* ----- BLOG PAGE STYLES ----- */
 
 .interactive-map {
-  padding: 10%;
+  padding: 3% 10%;
 }
 .descript {
   font-size: 1rem;
@@ -800,9 +802,10 @@ input[type=submit]{
 /* ----- INTERACTIVE MAP ---- */
   #mapdiv2 {
     background-color: #ffffff;
-    width: 100%;
-    min-height: 66vh;
+    min-height: 85vh;
     font-family: 'Poiret One', cursive;
+    /* border: 1px solid #b4acaa; */
+    border-radius: 5px;
   }
 
 /* ----- LOADING SCREEN ---- */

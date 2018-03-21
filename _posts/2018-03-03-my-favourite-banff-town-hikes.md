@@ -10,6 +10,7 @@ tags:
   - Hiking
   - Outdoors
   - Destinations
+  - Canada
 featured-image: /Images/moraine.jpg
 ---
 
