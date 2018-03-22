@@ -57,7 +57,7 @@ font-family: 'Raleway', sans-serif;
 
 }
 body {
-  font-size: 18px;
+  /* font-size: 18px; */
   color: black;
   font-family: 'Poiret One', cursive;
   text-decoration: none;
@@ -440,7 +440,7 @@ aside .connectIcons a{
 }
 #ig-filler {
   width: 19vw;
-  height: 19vw;
+  height: 9vw;
   background-color: black;
 }
 #ig iframe {
@@ -869,11 +869,70 @@ body.loaded #loading {
 }
 
 /* ----- MEDIA QUERIES ---- */
-@media screen and (min-width: 769px) {
+
+/* ----- TABLET ---- */
+@media screen and (max-width: 769px) {
 
   #ig-filler {
     width: 9vw;
     height: 9vw;
+  }
+  body{
+    font-size: 0.75rem;
+  }
+  h1 {
+    font-size: 7.5rem;
+  }
+  /* HERO IMAGE TEXT */
+  h2 {
+    font-size: 2.5rem;
+  }
+  h3{
+    font-size: 2rem;
+  }
+  h4{
+    font-size: 1.75rem;
+  }
+  h5{
+    font-size: 1.5rem;
+  }
+  /* LOGO */
+  h6 {
+    font-size: 1rem;
+  }
+
+}
+
+/* ----- MOBILE ---- */
+@media screen and (max-width: 376px){
+  body {
+    font-size: 0.65rem;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+  /* HERO IMAGE TEXT */
+  h2 {
+    font-size: 1.1rem;
+  }
+  h3{
+    font-size: 1rem;
+  }
+  h4{
+    font-size: 0.9rem;
+  }
+  h5{
+    font-size: 0.8rem;
+  }
+  /* LOGO */
+  h6 {
+    font-size: 0.7rem;
+  }
+  .post-background-img {
+    min-height: 40vh;
+  }
+  .mainMenu {
+    font-size: 1rem;
   }
 
 }
