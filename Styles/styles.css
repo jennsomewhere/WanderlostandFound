@@ -851,6 +851,7 @@ input[type=submit]{
     border-radius: 5px;
   }
 
+
 /* ----- LOADING SCREEN ---- */
 #loading {
   position:fixed;
@@ -874,8 +875,21 @@ body.loaded #loading {
 @media screen and (max-width: 769px) {
 
   #ig-filler {
-    width: 9vw;
-    height: 9vw;
+    width: auto;
+    height: auto;
+  }
+  ig {
+    position: relative;
+    height: auto;
+  }
+  #ig iframe {
+    position: relative;
+    top: auto;
+    left: auto;
+  }
+  iframe.ig {
+    width: 100%;
+    height: auto;
   }
   body{
     font-size: 0.75rem;
@@ -885,7 +899,7 @@ body.loaded #loading {
   }
   /* HERO IMAGE TEXT */
   h2 {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
   }
   h3{
     font-size: 2rem;
@@ -900,7 +914,68 @@ body.loaded #loading {
   h6 {
     font-size: 1rem;
   }
-
+  .mainMenu a {
+    font-size: 1rem;
+  }
+  .padded3lr {
+  padding: 0 1rem;
+  }
+  #collabButton {
+    display: none;
+  }
+  .padded3 {
+    padding: 1rem;
+  }
+  aside > div {
+    margin: 1rem 0;
+  }
+  .sidebar {
+    padding-right: 1rem;
+  }
+  .contact-text {
+    font-size: 1.3rem;
+    padding: 0 0 0 1rem;
+    font-size: 1rem;
+  }
+  .contact-text .image {
+    min-height: 30vh;
+  }
+  .page-title,
+  .welcome-title {
+    font-size: 7rem;
+  }
+  .sidebar {
+    display: none;
+  }
+  .padded6lr {
+    padding: 0 2rem;
+  }
+  #mapdiv2 {
+    min-height: 40vh;
+  }
+  .interactive-map {
+    padding: 0 0 1rem 0;
+  }
+  .readmore {
+    font-size: 0.75rem;
+    width: 70%;
+    text-align: center;
+  }
+  .catpreview p {
+    font-size: 1.5rem;
+  }
+  .catpreview a {
+    font-size: 1.1rem;
+  }
+  .post-preview h5 {
+    font-size: 0.9rem;
+    padding: 1rem 0;
+    text-align: center;
+  }
+  .post-preview p {
+    padding: 0 0 1rem 0;
+    font-size: 0.9rem;
+  }
 }
 
 /* ----- MOBILE ---- */
@@ -931,8 +1006,36 @@ body.loaded #loading {
   .post-background-img {
     min-height: 40vh;
   }
-  .mainMenu {
-    font-size: 1rem;
+  .comments {
+    display: none;
   }
+  .related-post-preview {
+    min-height: 35vw;
+    min-width: 35vw;
+  }
+  .interactive-map,
+  #mapdiv2 {
+    display: none;
+  }
+  .readmore {
+    font-size: 0.5rem;
+    width: 70%;
+    text-align: center;
 
+  }
+  .catpreview p {
+    font-size: 0.9rem;
+  }
+  .catpreview a {
+    font-size: 0.5em;
+  }
+  .post-preview h5 {
+    font-size: 0.7rem;
+    padding: 0.5rem 0;
+    text-align: center;
+  }
+  .post-preview p {
+    padding: 0;
+    font-size: 0.9rem;
+  }
 }
