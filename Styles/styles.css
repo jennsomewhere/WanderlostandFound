@@ -640,12 +640,9 @@ input[type=submit]{
 .post-background-img {
   background-size: cover;
   background-position: center;
-  min-height: 77vh;
+  min-height: 75vh;
   border-radius: 3px;
-  filter: opacity(.7);
-
 }
-
 .post {
   font-family: 'Raleway';
 }
@@ -741,6 +738,7 @@ input[type=submit]{
 .connectwithme p {
   padding-left: 1rem;
   padding-right: 1rem;
+  text-align: center;
 }
 .connectwithme a {
   font-size: 3rem;
@@ -872,7 +870,7 @@ body.loaded #loading {
 /* ----- MEDIA QUERIES ---- */
 
 /* ----- TABLET ---- */
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 1026px) {
 
   #ig-filler {
     width: auto;
@@ -892,7 +890,7 @@ body.loaded #loading {
     height: auto;
   }
   body{
-    font-size: 0.75rem;
+    font-size: 1rem;
   }
   h1 {
     font-size: 7.5rem;
@@ -976,6 +974,55 @@ body.loaded #loading {
     padding: 0 0 1rem 0;
     font-size: 0.9rem;
   }
+  .mailingList {
+    font-size: 0.9rem;
+    padding: 1rem;
+  }
+  input,
+  textarea {
+    font-size: 0.8rem;
+  }
+  .disclosure,
+  footer h5 {
+    font-size: 0.5rem;
+  }
+  footer {
+    padding: 0.5rem;
+  }
+  #search {
+    padding: 0;
+  }
+  .hero {
+    min-height: 50vh;
+  }
+  .hero h2 {
+    font-size: 4rem;
+  }
+  .hero .subhead {
+    font-size: 1.5rem;
+  }
+  .default-text {
+    font-size: 6rem;
+  }
+  .hover-text {
+    font-size: 2rem;
+  }
+  .post-background-img {
+    min-height: 50vh;
+  }
+  .gallery-item {
+    min-height: 25vw;
+    min-width: 25vw;
+  }
+  .connectwithme .blocktitle {
+    font-size: 1.5em;
+  }
+  .connectwithme a {
+    font-size: 1rem;
+  }
+  .linktext a {
+    font-size: 1rem;
+  }
 }
 
 /* ----- MOBILE ---- */
@@ -1021,21 +1068,70 @@ body.loaded #loading {
     font-size: 0.5rem;
     width: 70%;
     text-align: center;
-
+  }
+  .padded6lr{
+    padding: 0 1rem;
   }
   .catpreview p {
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
   .catpreview a {
-    font-size: 0.5em;
+    font-size: 0.75rem;
+  }
+  .default-text {
+    font-size: 3rem;
   }
   .post-preview h5 {
-    font-size: 0.7rem;
+    font-size: 0.75rem;
     padding: 0.5rem 0;
     text-align: center;
   }
   .post-preview p {
-    padding: 0;
-    font-size: 0.9rem;
+    display: none;
+  }
+  .mainMenu a {
+    font-size: 0.6rem;
+  }
+  footer {
+    display: none;
+  }
+  .hero {
+    min-height: 40vh;
+  }
+  .hero h2 {
+    text-align: center;
+    font-size: 1.8rem;
+  }
+  .hero .subhead {
+    text-align: center;
+    padding: 0.5rem;
+    font-size: .8rem;
+  }
+  .welcome-title {
+    font-size: 4rem;
+  }
+  .welcome-subhead {
+    top: -20px;
+    font-size: 1rem;
+  }
+  .name {
+    font-size: 6rem;
+  }
+  .media-header .bottom-text {
+    font-size: 1.5rem;
+    left: 0.5rem;
+  }
+  .brandname {
+    font-size: 1.2rem;
+  }
+  .stat-value {
+    font-size: 1.5rem;
+  }
+  .stat-title {
+    font-size: 0.7rem;
+  }
+  .gallery-item {
+    min-height: 40vw;
+    min-width: 40vw;
   }
 }
