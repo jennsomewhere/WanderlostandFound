@@ -1,8 +1,7 @@
 ---
 layout: post
 title: My Favourite Town of Banff Hikes
-description: >-
-  My favourite hikes that are totally accessible from the Town of Banff - no car
+description: My favourite hikes that are totally accessible from the Town of Banff - no car
   required!
 blog-menu: true
 sidebar: true
@@ -14,7 +13,9 @@ tags:
   - Outdoors
   - Destinations
   - Canada
-featured-image: /Images/moraine.jpg
+  - Banff
+  - mountains
+featured-image: /Images/Hikings.jpg
 ---
 
 Canada's Rocky Mountains are famed for their dramatic peaks, gemstone-coloured lakes, and diverse wildlife. But they're also remote and cover a massive area, with many trails difficult to access if you don't have a vehicle. So what happens if you find yourself in the town of Banff with only your own two feet to get you places? You have an amazing time seeing the sights, of course! There are a surprising number of great hiking options with trailheads starting right in town, from flat-and-leisurely to get-that-blood-pumping to ohmygod-what-was-I-thinking? Towering trees, fascinating canyons, and totally Instagram-worthy vistas are only steps away from your hotel/hostel/campsite. Always be prepared when you go hiking and make sure you check wildlife notices, trail conditions, and the weather report before you go, because mountain environments can change lightning fast. Everything you need to be smart and informed is available from the Banff Visitor Centre at 224 Banff Ave; or on the [Parks Canada](https://www.pc.gc.ca/en) website.&nbsp;
@@ -25,7 +26,9 @@ Below you'll find some of my favourite hikes and walks, all of them accessible f
 
 ## (Mostly) Flat and Leisurely
 
-<br>Fenland Loop<br>Trailhead: Fenland Trail parking lot, off of on Mt Norquay Rd between the railway tracks and the Trans-Canada Highway
+### Fenland Loop
+
+Trailhead: Fenland Trail parking lot, off of Mt Norquay Rd between the railway tracks and the Trans-Canada Highway
 
 Stats: 2.1km loop, no elevation gain
 
@@ -65,7 +68,9 @@ Why I Love It: You'd never know you were still in Banff as you follow the trail 
 
 ## Get That Blood Pumpin'
 
-<br>Sundance Canyon Trail (with Cave & Basin Trail and Marsh Loop)<br>Trailhead: Surprise Corner Viewpoint on Buffalo Street
+### Sundance Canyon Trail (with Cave & Basin Trail and Marsh Loop)
+
+Trailhead: Surprise Corner Viewpoint on Buffalo Street
 
 Stats: Discovery Boardwalk 0.4 km one way; Cave & Basin to Sundance Canyon 4.3 km one way, 20 m elevation gain; Sundance Canyon 1.2 km loop, 145 m elevation gain; Marsh Loop 2.5 km loop, 10 m elevation gain.
 
