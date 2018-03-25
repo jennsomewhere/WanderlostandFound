@@ -74,17 +74,27 @@ h1 {
 }
 /* HERO IMAGE TEXT */
 h2 {
-  font-size: 3.4rem;
+  font-size: 2.5rem;
 }
 h3{
-  font-size: 3rem;
+  font-size: 2.25rem;
 }
 h4{
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 h5{
   font-size: 2rem;
   text-transform: uppercase;
+}
+.postcontent h2,
+.postcontent h3,
+.postcontent h4, {
+  padding: 0.5rem;
+}
+.postcontent h5 {
+  font-size: 1.75rem;
+  text-transform: none;
+  padding: 0.5 rem;
 }
 /* LOGO */
 h6 {
@@ -645,6 +655,9 @@ input[type=submit]{
 }
 .post {
   font-family: 'Raleway';
+}
+.indent3 {
+  padding-left: 3rem;
 }
 
 /* ----- MEDIA KIT STYLES ----- */

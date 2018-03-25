@@ -10,12 +10,28 @@ layout: default
       <h1>{{page.title}}</h1>
     </div>
   </div>
-
-{{content}}
+<section class="postcontent">
+  {{content}}
+</section>
+<section class="padded3">
+  <p class= "blocktitle">
+    <i class="fab fa-pinterest"></i> Pin This!
+  </p>
+  <div class="grid padded3 editable">
+    <div class="col-6 padded6lr">
+      <img src="{{page.pin1}}" style="width:20vw">
+    </div>
+    <div class="col-6 padded6lr">
+      <img src="{{page.pin2}}" style="width:20vw">
+    </div>
+  </div>
+  <p class="blocktitle">Share this on Pinterest by pinning the graphics above!
+  </p>
+</section>
 </section>
 
 <!-- RELATED POSTS -->
-<div class="padded3"></div>
+<!-- <div class="padded3"></div> -->
 <div class="center">
   <h5 class="underline">Related Posts</h5>
 </div>
