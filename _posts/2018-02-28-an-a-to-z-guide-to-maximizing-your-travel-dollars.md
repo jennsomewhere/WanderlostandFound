@@ -1,12 +1,16 @@
 ---
 layout: post
 title: An A to Z Guide to Maximizing Your Travel Dollars
-description: >-
-  Don’t let an empty wallet stop you from dreaming big when it comes to your
+description: Don’t let an empty wallet stop you from dreaming big when it comes to your
   travel plans. From accommodation to transportation to sight-seeing, there are
   a wide range of options out there for you to travel for little to no money of
   your own. (Yes, it is actually possible!)
 featured-image: /Images/maximizetraveldollars.jpg
+pin1: /Images/a-z-pin1.png
+pin2: /Images/a-z-longpin.png
+pin-descript: From accommodation to transportation to sight-seeing, there are
+  a wide range of options out there for you to travel for little to no money of
+  your own. (Yes, it is actually possible!)
 blog-menu: true
 sidebar: true
 comments: true
@@ -21,7 +25,7 @@ tags:
   - On My Mind
 ---
 
-##### Don't let an empty wallet stop you from dreaming big when it comes to your travel plans. From accommodation to transportation to sight-seeing, there are a wide range of options out there for you to travel for little to no money of your own. (Yes, it is actually possible!)
+**Don't let an empty wallet stop you from dreaming big when it comes to your travel plans. From accommodation to transportation to sight-seeing, there are a wide range of options out there for you to travel for little to no money of your own. (Yes, it is actually possible!)**
 
 <br>Search for **Authentic Experiences**
 

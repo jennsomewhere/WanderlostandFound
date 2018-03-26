@@ -19,6 +19,7 @@ tags:
 featured-image: /Images/hikingboots.png
 pin1: /Images/banff-hikes-pin1.png
 pin2: /Images/banff-hikes-pin2.png
+pin-descript: There are a surprising number of great hiking options with trailheads starting right in town, from flat-and-leisurely to get-that-blood-pumping to ohmygod-what-was-I-thinking? Towering trees, fascinating canyons, and totally Instagram-worthy vistas are only steps away from your hotel/hostel/campsite.
 ---
 
 Canada's Rocky Mountains are famed for their dramatic peaks, gemstone-coloured lakes, and diverse wildlife. But they're also remote and cover a massive area, with many trails difficult to access if you don't have a vehicle. So what happens if you find yourself in the town of Banff with only your own two feet to get you places? You have an amazing time seeing the sights, of course! There are a surprising number of great hiking options with trailheads starting right in town, from flat-and-leisurely to get-that-blood-pumping to ohmygod-what-was-I-thinking? Towering trees, fascinating canyons, and totally Instagram-worthy vistas are only steps away from your hotel/hostel/campsite. Always be prepared when you go hiking and make sure you check wildlife notices, trail conditions, and the weather report before you go, because mountain environments can change lightning fast. Everything you need to be smart and informed is available from the Banff Visitor Centre at 224 Banff Ave; or on the <a href="https://www.pc.gc.ca/en/pn-np/ab/banff" target="blank"> <u>Parks Canada</u></a> website.<br><br>
