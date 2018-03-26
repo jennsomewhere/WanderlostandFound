@@ -6,7 +6,7 @@ description: >-
   travel plans. From accommodation to transportation to sight-seeing, there are
   a wide range of options out there for you to travel for little to no money of
   your own. (Yes, it is actually possible!)
-featured-image: /Images/blog.jpg
+featured-image: /Images/maximizetraveldollars.jpg
 blog-menu: true
 sidebar: true
 comments: true
