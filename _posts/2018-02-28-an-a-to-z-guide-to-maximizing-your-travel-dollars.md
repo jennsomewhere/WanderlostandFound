@@ -6,7 +6,7 @@ description: >-
   travel plans. From accommodation to transportation to sight-seeing, there are
   a wide range of options out there for you to travel for little to no money of
   your own. (Yes, it is actually possible!)
-featured-image: /Images/travel-plan.jpg
+featured-image: /Images/blog.jpg
 blog-menu: true
 sidebar: true
 comments: true
@@ -45,7 +45,7 @@ If you're dining on the local, in season cuisine, you can rest assured that your
 
 Be **Flexible**
 
-Having a general overview of where you're going and what you want to do is key to being a prepared traveler, but make sure you allow yourself time to take advantage of opportunities that pop up. You might meet some travelers along the way with an extra spot in their group activity; or maybe you've just received an email with killer last minute fares to an exotic beach locale. While in Zambia I knew I wanted to raft the Zambezi River, and I was going to pay for it no matter what. But by being flexible with what day I went, I saved 25% on the price by tagging along with a group staying at my hostel. AND we all got free DVDs with pictures and video because we met the group booking minimum size requirement.<br>&nbsp;
+Having a general overview of where you're going and what you want to do is key to being a prepared traveler, but make sure you allow yourself time to take advantage of opportunities that pop up. You might meet some travelers along the way with an extra spot in their group activity; or maybe you've just received an email with killer last minute fares to an exotic beach locale. While in Zambia I knew I wanted to raft the Zambezi River, and I was going to pay for it no matter what. But by being flexible with what day I went, I saved 25% on the price by tagging along with a group staying at my hostel. AND we all got free DVDs with pictures and video because we met the group booking minimum size requirement.<br>
 
 Read the **Guidebook**
 
@@ -71,7 +71,7 @@ Got a week off work but no firm travel plans? Check out last minute deals on air
 
 Locals know their city, and are usually eager to give advice to help travelers enjoy their stay. You might learn about a free concert in a park on the weekend, where the absolute best place to eat dumplings is, or what neighbourhoods to avoid after dark. If a local offers up advice, and doesn't follow you into a store to collect their "commission," you should definitely try to work it into your travel plans.
 
-<br>Book a **Multi-City**&nbsp;Flight
+<br>Book a **Multi-City** Flight
 
 Also known as open jaw tickets, you can save time and money by avoiding booking separate flights. When flying internationally, one way tickets are often almost as much money as a return ticket. But what if you want to fly from A to B, then travel overland across the country, and fly from C back to A? Two one way tickets could end up costing you thousands, but if you book a multi-city journey, the airline usually prices it as though it were one return ticket. Some airlines, such as Icelandair or Air New Zealand, also allow you to use the multi-city booking tool to include a stopover in their hub city for up to 7 days absolutely free.
 
