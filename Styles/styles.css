@@ -659,6 +659,9 @@ input[type=submit]{
 .indent3 {
   padding-left: 3rem;
 }
+.pinthis .blocktitle {
+  color: white;
+}
 
 /* ----- MEDIA KIT STYLES ----- */
 .media-header {

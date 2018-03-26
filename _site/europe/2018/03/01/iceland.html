@@ -23,6 +23,26 @@
     <link rel="stylesheet" type="text/css" href="/Styles/gridlex.css">
     <link rel="stylesheet" type="text/css" href="/Styles/styles.css">
     <meta name="viewport" content="width=device-width, user-scalable=0">
+    <!-- Pinterest Tag -->
+<script>
+!function(e){if(!window.pintrk){window.pintrk = function () {
+window.pintrk.queue.push(Array.prototype.slice.call(arguments))};var
+      n=window.pintrk;n.queue=[],n.version="3.0";var
+      t=document.createElement("script");t.async=!0,t.src=e;var
+      r=document.getElementsByTagName("script")[0];
+      r.parentNode.insertBefore(t,r)}}("https://s.pinimg.com/ct/core.js");
+pintrk('load', '2621201945366', {em: '<user_email_address>'});
+pintrk('page');
+</script>
+<noscript>
+<img height="1" width="1" style="display:none;" alt=""
+      src="https://ct.pinterest.com/v3/?tid=2621201945366&pd[em]=<hashed_email_address>&noscript=1" />
+</noscript>
+
+<script>
+pintrk('track', 'pagevisit');
+</script>
+<!-- end Pinterest Tag -->
 
   </head>
 
@@ -122,16 +142,18 @@
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
 </section>
-<section class="padded3">
+<section class="pinthis padded3">
   <p class= "blocktitle">
     <i class="fab fa-pinterest"></i> Pin This!
   </p>
   <div class="grid padded3 editable">
     <div class="col-6 padded6lr">
-      <img src="" style="width:20vw">
+        <img src="" style="width:25vw">
+      <a data-pin-do="buttonPin" href="https://www.pinterest.com/pin/create/button/?url=&media=http://127.0.0.1:4000/Images/banff-hikes-pin1.png"></a>
     </div>
     <div class="col-6 padded6lr">
-      <img src="" style="width:20vw">
+      <img src="" style="width:25vw">
+        <a data-pin-do="buttonPin" href="https://www.pinterest.com/pin/create/button/?media=&description=Pin%20This!"></a>
     </div>
   </div>
   <p class="blocktitle">Share this on Pinterest by pinning the graphics above!
@@ -461,6 +483,8 @@ function createCustomMarker( image ) {
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="/js/main.js"></script>
+  <script
+    type="text/javascript" async defer src="//assets.pinterest.com/js/pinit.js"></script>
 
   </body>
 </html>
