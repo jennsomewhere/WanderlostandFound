@@ -666,7 +666,7 @@ input[type=submit]{
   text-transform: lowercase;
   font-weight: normal;
 }
-.pin {
+.save {
   background-color: #9b555a;
   color: white;
   border-radius: 3px;
@@ -1055,10 +1055,17 @@ body.loaded #loading {
   .linktext a {
     font-size: 1rem;
   }
+  .save {
+    font-size: 0.7rem;
+    padding: 0.2rem 0.5rem;
+  }
+  .pinthis .blocktitle {
+    font-size: 0.7rem;
+  }
 }
 
 /* ----- MOBILE ---- */
-@media screen and (max-width: 376px){
+@media screen and (max-width: 415px){
   body {
     font-size: 0.65rem;
   }
@@ -1165,5 +1172,8 @@ body.loaded #loading {
   .gallery-item {
     min-height: 40vw;
     min-width: 40vw;
+  }
+  .map-center {
+    height: 250px;
   }
 }
