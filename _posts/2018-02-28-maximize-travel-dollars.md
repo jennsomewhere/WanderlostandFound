@@ -1,7 +1,7 @@
 ---
 layout: post
 title: An A to Z Guide to Maximizing Your Travel Dollars
-description: A post about making your money go further
+description: Don’t let an empty wallet stop you from dreaming big when it comes to your travel plans. From accommodation to transportation to sight-seeing, there are a wide range of options out there for you to travel for little to no money of your own. (Yes, it is actually possible!)
 featured-image: /Images/travel-plan.jpg
 blog-menu: true
 sidebar: true
@@ -10,9 +10,13 @@ tags:
   - Tips
   - Extras
   - Editorial
+  - destinations
+  - Lists
+  - How Tos
+
 ---
 
-#### Don't let an empty wallet stop you from dreaming big when it comes to your travel plans. From accommodation to transportation to sight-seeing, there are a wide range of options out there for you to travel for little to no money of your own. (Yes, it is actually possible!)
+##### Don't let an empty wallet stop you from dreaming big when it comes to your travel plans. From accommodation to transportation to sight-seeing, there are a wide range of options out there for you to travel for little to no money of your own. (Yes, it is actually possible!)
 <br>
 ### Search for Authentic Experiences
 Strive to experience your destination like a local for guaranteed good times that are easier on the wallet. Take public transport instead of taxis, eat at restaurants packed with locals instead of tourists, attend festivals and celebrations on your own instead of as part of a group tour. Living like a local is guaranteed to save you a few dollars, introduce you to some new experiences, and maybe even make you some new friends along the way.
