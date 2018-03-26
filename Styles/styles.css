@@ -661,6 +661,19 @@ input[type=submit]{
 }
 .pinthis .blocktitle {
   color: white;
+  font-family: 'Raleway';
+  font-size: 1.2rem;
+  text-transform: lowercase;
+  font-weight: normal;
+}
+.pin {
+  background-color: #9b555a;
+  color: white;
+  border-radius: 3px;
+  width: 100%;
+  font-size: 1rem;
+  padding: 0.5rem 3rem;
+  cursor: pointer;
 }
 
 /* ----- MEDIA KIT STYLES ----- */
