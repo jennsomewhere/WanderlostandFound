@@ -17,8 +17,8 @@ tags:
   - Mountains
   - Lists
 featured-image: /Images/hikingboots.png
-pin1: /Images/banff-hikes-pin1.png
-pin2: /Images/banff-hikes-pin2.png
+pin1: /Images/Pinterest/banff-hikes-pin1.png
+pin2: /Images/Pinterest/banff-hikes-pin2.png
 pin-descript: There are a surprising number of great hiking options with trailheads starting right in town, from flat-and-leisurely to get-that-blood-pumping to ohmygod-what-was-I-thinking? Towering trees, fascinating canyons, and totally Instagram-worthy vistas are only steps away from your hotel/hostel/campsite.
 ---
 
