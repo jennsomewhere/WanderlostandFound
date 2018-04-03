@@ -46,7 +46,7 @@ Pedal power gives you a chance to immerse yourself in your new environment, allo
 
 <h5 class="underline"><span style="color:#9b555a">DISCOUNT</span> Cards are Your Friends</h5><br>
 
-Still a student? Don't leave home without your ISIC (International Student Identity Card), it will allow you to receive a discounted rate everywhere that offers student/concession discounts. Not a student? If you're under 30 you can get an IYTC (International Youth Travel Card) which will often qualify you for similar rates. I used my ISIC everywhere I went when I backpacked Egypt and Europe and received some amazing deals from 50% off to completely free admission at times!<br><br>Student and Youth cards aren't the only discount cards out there though. Many European cities have Museum Passes, or similar, that offer discounted or free admission to museums and other city attractions and usually also allow the card holder to jump to the front of the line. Some, like the Roma Pass, include public transportation, which means you end up saving a lot of money with just one card.<br><br>
+Still a student? Don't leave home without your <a href="https://www.isic.org/" target="blank">ISIC (International Student Identity Card)</a>, it will allow you to receive a discounted rate everywhere that offers student/concession discounts. Not a student? If you're under 30 you can get an IYTC (International Youth Travel Card) which will often qualify you for similar rates. I used my ISIC everywhere I went when I backpacked Egypt and Europe and received some amazing deals from 50% off to completely free admission at times!<br><br>Student and Youth cards aren't the only discount cards out there though. Many European cities have Museum Passes, or similar, that offer discounted or free admission to museums and other city attractions and usually also allow the card holder to jump to the front of the line. Some, like the Roma Pass, include public transportation, which means you end up saving a lot of money with just one card.<br><br>
 
 <h5 class="underline"><span style="color:#9b555a">EAT</span> Local and In Season</h5><br>
 
@@ -58,10 +58,10 @@ Having a general overview of where you're going and what you want to do is key t
 
 <h5 class="underline">Read the <span style="color:#9b555a">GUIDEBOOK</span></h5><br>
 
-Guidebooks are a relatively small expense packed with loads of valuable tips, tricks, and recommendations. These days many also come in handy .pdf format so you can download it to your phone and take it with you without having to lug the whole book. Even with all of the information out there on the internet, guidebooks are helpful when you are in your destination country and might not have 24/7 wifi, and sometimes can be one of the only sources of trusted information you have before arriving at your destination.<br><br>
+<a href="http://www.jdoqocy.com/click-8028748-11736491?url=http%3A%2F%2Fwww.chapters.indigo.ca%2Fen-ca%2Fbooks%2Fproduct%2F9781786576538-item.html&cjsku=978178657653" target="blank">Guidebooks</a> are a relatively small expense packed with loads of valuable tips, tricks, and recommendations. These days many also come in handy .pdf format so you can download it to your phone and take it with you without having to lug the whole book. Even with all of the information out there on the internet, guidebooks are helpful when you are in your destination country and might not have 24/7 wifi, and sometimes can be one of the only sources of trusted information you have before arriving at your destination.<br><br>
 
 <div class="center">
-<img src="/Images/guidebook.jpg" class="post-img" style="width:50vw">
+<a href="http://www.jdoqocy.com/click-8028748-11736491?url=http%3A%2F%2Fwww.chapters.indigo.ca%2Fen-ca%2Fbooks%2Fproduct%2F9781786576538-item.html&cjsku=978178657653" target="blank"><img src="/Images/guidebook.jpg" class="post-img" style="width:50vw"></a>
 </div><br><br>
 
 <h5 class="underline">Stay at <span style="color:#9b555a">HOSTELS</span></h5><br>
@@ -86,11 +86,14 @@ Locals know their city, and are usually eager to give advice to help travellers 
 
 <h5 class="underline">Book a <span style="color:#9b555a">MULTI-CITY FLIGHT</span></h5><br>
 
-Also known as open jaw tickets, you can save time and money by avoiding booking separate flights. When flying internationally, one way tickets are often almost as much money as a return ticket. But what if you want to fly from A to B, then travel overland across the country, and fly from C back to A? Two one way tickets could end up costing you thousands, but if you book a multi-city journey, the airline usually prices it as though it were one return ticket. Some airlines, such as Icelandair or Air New Zealand, also allow you to use the multi-city booking tool to include a stopover in their hub city for up to 7 days absolutely free.<br><br>
+Also known as <a hred="http://www.dpbolvw.net/click-8028748-13057482" target="blank">open jaw tickets</a>, you can save time and money by avoiding booking separate flights. When flying internationally, one way tickets are often almost as much money as a return ticket. But what if you want to fly from A to B, then travel overland across the country, and fly from C back to A? Two one way tickets could end up costing you thousands, but if you book a multi-city journey, the airline usually prices it as though it were one return ticket. Some airlines, such as Icelandair or Air New Zealand, also allow you to use the multi-city booking tool to include a stopover in their hub city for up to 7 days absolutely free.<br><br>
 
 <h5 class="underline"><span style="color:#9b555a">NEW ROUTES</span></h5><br>
 
 When airlines introduce new routes they haven't got an established base of travellers flying those itineraries yet, so they offer low fares to get people interested. Watch airline websites, or sign up for alerts from apps such as Hopper, for announcements for new routes and you can save BIG. When Icelandair started flying direct from Edmonton to Reykjavik I was able to book a return ticket for $500 including taxes! And when Air Canada started flying direct from Vancouver to Brisbane, I booked a ticket on that route for $534 taxes in.<br><br>
+
+<a href="http://www.dpbolvw.net/click-8028748-13120082" target="top">
+<img src="http://www.awltovhc.com/image-8028748-13120082" width="234" height="60" alt="Fly and Stay Cheap!" border="0"/></a><br><br>
 
 <h5 class="underline">Get <span style="color:#9b555a">OUTSIDE YOUR COMFORT ZONE</span></h5><br>
 
@@ -137,7 +140,7 @@ Often found in or near major train stations and other hubs where tourists congre
 
 <h5 class="underline"><span style="color:#9b555a">WORK</span> for Your Board</h5><br>
 
-Ask at your hostel if they need someone to help out in exchange for a free or discounted room. They often don't even require you to have a work visa since you aren't actually getting paid, you're just "volunteering" in exchange for a place to sleep. One hostel I stayed at in Thailand would let you stay for free as long as you manned the reception desk for 2 hrs/day. One in Australia would pay travelers cash to clean rooms and change bedding. Another option is WWOOF, which connects volunteers with organic farmers. In exchange for your help on the farm, you get accommodation and food, and yet another chance to immerse yourself in local culture.<br><br>
+Ask at your hostel if they need someone to help out in exchange for a free or discounted room. They often don't even require you to have a work visa since you aren't actually getting paid, you're just "volunteering" in exchange for a place to sleep. One hostel I stayed at in Thailand would let you stay for free as long as you manned the reception desk for 2 hrs/day. One in Australia would pay travelers cash to clean rooms and change bedding. Another option is <a href="http://wwoof.net/" target="blank">WWOOF</a>, which connects volunteers with organic farmers. In exchange for your help on the farm, you get accommodation and food, and yet another chance to immerse yourself in local culture.<br><br>
 
 <h5 class="underline">Become a <span style="color:#9b555a">XENOPHILE</span></h5><br>
 
@@ -149,7 +152,7 @@ Get interested in foreign cultures, languages, and people. Knowing local customs
 
 <h5 class="underline">Be a <span style="color:#9b555a">YACHTIE</span></h5><br>
 
-Yearning to get to Europe but can't afford the flight? Consider sailing the high seas as a member of a yacht crew. The more prestigious jobs will require you to have experience, but it's not impossible to get yourself a spot on a smaller boat as an entry level crew member. Living in very close quarters with the same people you work with all day long isn't for everyone, and you will be expected to work long and sometimes irregular hours, but it will help you travel the world for little to no transportation cost, and you might find out that you actually really love it. There are many "yachties" out there who have been doing this for years. Try searching Crewseekers for available opportunities.<br><br>
+Yearning to get to Europe but can't afford the flight? Consider sailing the high seas as a member of a yacht crew. The more prestigious jobs will require you to have experience, but it's not impossible to get yourself a spot on a smaller boat as an entry level crew member. Living in very close quarters with the same people you work with all day long isn't for everyone, and you will be expected to work long and sometimes irregular hours, but it will help you travel the world for little to no transportation cost, and you might find out that you actually really love it. There are many "yachties" out there who have been doing this for years. Try searching <a href="https://www.crewseekers.net/" target="blank">Crewseekers</a> for available opportunities.<br><br>
 
 <h5 class="underline">Don't Be a Travel <span style="color:#9b555a">ZOMBIE</span></h5><br>
 
