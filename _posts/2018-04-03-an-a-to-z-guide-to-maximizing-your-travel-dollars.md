@@ -92,9 +92,6 @@ Also known as <a hred="http://www.dpbolvw.net/click-8028748-13057482" target="bl
 
 When airlines introduce new routes they haven't got an established base of travellers flying those itineraries yet, so they offer low fares to get people interested. Watch airline websites, or sign up for alerts from apps such as Hopper, for announcements for new routes and you can save BIG. When Icelandair started flying direct from Edmonton to Reykjavik I was able to book a return ticket for $500 including taxes! And when Air Canada started flying direct from Vancouver to Brisbane, I booked a ticket on that route for $534 taxes in.<br><br>
 
-<a href="http://www.dpbolvw.net/click-8028748-13120082" target="top">
-<img src="http://www.awltovhc.com/image-8028748-13120082" width="234" height="60" alt="Fly and Stay Cheap!" border="0"/></a><br><br>
-
 <h5 class="underline">Get <span style="color:#9b555a">OUTSIDE YOUR COMFORT ZONE</span></h5><br>
 
 If you're eating at restaurants in tourist areas with "We Speak English" signs posted in their window you'll probably be paying a premium. Nothing against those restaurants, but you're likely to get better value for your money if you head off the main roads and search out spots that are packed with locals. Not only will you be paying the same price locals pay to eat out, but if you choose a restaurant full of local people, you know you'll be getting a tasty and authentic meal as well. If you can't read the menu, try ordering from the daily specials and hope for the best! I ate some amazing meals in Cairo (from a restaurant that a local walking by on the street recommended) and never had any idea what I was ordering. It was an adventure, and despite the staff laughing at some of the things I ended up ordering (and my attempts to eating it!), it was a great experience.<br><br>
