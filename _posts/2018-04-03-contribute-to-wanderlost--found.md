@@ -15,6 +15,13 @@ pin-descript: >-
 blog-menu: true
 sidebar: true
 comments: true
+categories:
+  - North America
+  - South America
+  - Europe
+  - Asia
+  - Oceania
+  - Africa
 tags:
   - Tips
   - Extras
