@@ -116,7 +116,8 @@ Another way to earn for stuff you're doing online anyways is to sign up for a re
 
 <div class="center">
 <a href="http://www.tkqlhce.com/click-8028748-10463887" target="top">
-<img src="/Images/Ads/mypoints.png" class="post-img" style="width:50vw"></a>
+<img src="/Images/Ads/mypoints.png" class="post-img" style="width:20vw"></a><a href="http://www.anrdoezrs.net/click-8028748-10493656" target="top">
+<img src="http://www.awltovhc.com/image-8028748-10493656" width="468" height="60" alt="" border="0"/></a>
 </div><br><br>
 
 <h5 class="underline">Travel in <span style="color:#9b555a">SECOND CLASS</span></h5><br>
