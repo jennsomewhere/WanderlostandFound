@@ -677,7 +677,9 @@ input[type=submit]{
 }
 .post-img {
   border-radius: 3px;
-
+}
+.postcontent a {
+  text-decoration: underline;
 }
 /* ----- MEDIA KIT STYLES ----- */
 .media-header {
@@ -973,6 +975,7 @@ body.loaded #loading {
   .page-title,
   .welcome-title {
     font-size: 7rem;
+    padding-bottom: 2rem;
   }
   .sidebar {
     display: none;
@@ -1175,5 +1178,10 @@ body.loaded #loading {
   }
   .map-center {
     height: 250px;
+  }
+  .page-title,
+  .welcome-title {
+    font-size: 5rem;
+    padding-bottom: 2rem;
   }
 }
