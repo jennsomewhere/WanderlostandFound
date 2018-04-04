@@ -135,6 +135,7 @@ h6 {
   text-align: center;
   color: rgb(105,96,94);
   transform: rotateZ(-6deg);
+  padding-top: 1rem;
 }
 .underline {
   text-decoration: underline;

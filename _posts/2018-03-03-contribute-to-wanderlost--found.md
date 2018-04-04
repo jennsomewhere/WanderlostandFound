@@ -33,6 +33,8 @@ tags:
   - On My Mind
   - Photography
   - Destinations
+  - Freebies
+  - Resources
 ---
 
 Do you have travel content that you think might be a good fit here? Wanderlost + Found is always on the lookout for quality travel-related content to share with our readers.&nbsp; If you have an idea to share, get in touch by visiting the [Contact Me](/contact.html) page.&nbsp;
