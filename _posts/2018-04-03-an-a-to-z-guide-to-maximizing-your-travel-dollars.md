@@ -66,7 +66,8 @@ Having a general overview of where you're going and what you want to do is key t
 
 <h5 class="underline">Stay at <span style="color:#9b555a">HOSTELS</span></h5><br>
 
-If couchsurfing isn't a thing you'd be into, consider staying at a hostel. Many hostels offer private rooms if you don't want to share a dorm, and they are almost always less expensive than hotels. Hostels are also great places to meet new friends, get some tips and recommendations from people who have visited the sites you want to see, and many offer easy-on-the-wallet tours and travel deals geared towards budget travelers. You might get extras thrown in as well, like free shuttles to popular sites, free breakfasts, all day tea & coffee, activities for guests, etc. At Base St. Kilda in Melbourne, I even got free champagne in the bar every evening during happy hour!<br><br>
+If couchsurfing isn't a thing you'd be into, consider <a href="https://prf.hn/click/camref:1101lnPB/creativeref:1101l8045">staying at a hostel</a>. Many hostels offer private rooms if you don't want to share a dorm, and they are almost always less expensive than hotels. Hostels are also great places to meet new friends, get some tips and recommendations from people who have visited the sites you want to see, and many offer easy-on-the-wallet tours and travel deals geared towards budget travelers. You might get extras thrown in as well, like free shuttles to popular sites, free breakfasts, all day tea & coffee, activities for guests, etc. At Base St. Kilda in Melbourne, I even got free champagne in the bar every evening during happy hour!<br><br>
+<a href="https://prf.hn/click/camref:1101lnPB/creativeref:1101l8045"><img src="https://creative.prf.hn/source/camref:1101lnPB/creativeref:1101l8045" width="165" height="85" border="0"/></a><br>
 
 <h5 class="underline"><span style="color:#9b555a">INVEST</span> in Key Items</h5><br>
 
