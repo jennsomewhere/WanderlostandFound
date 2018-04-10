@@ -656,6 +656,7 @@ input[type=submit]{
 }
 .post {
   font-family: 'Raleway';
+  line-height: 1.6;
 }
 .indent3 {
   padding-left: 3rem;
@@ -682,6 +683,7 @@ input[type=submit]{
 .postcontent a {
   text-decoration: underline;
 }
+
 /* ----- MEDIA KIT STYLES ----- */
 .media-header {
   background-color: rgb(105,96,94);
