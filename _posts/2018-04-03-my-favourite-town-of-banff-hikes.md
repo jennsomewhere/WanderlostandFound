@@ -21,8 +21,18 @@ pin1: /Images/Pinterest/banff-hikes-pin1.png
 pin2: /Images/Pinterest/banff-hikes-pin2.png
 pin-descript: There are a surprising number of great hiking options with trailheads starting right in town, from flat-and-leisurely to get-that-blood-pumping to ohmygod-what-was-I-thinking? Towering trees, fascinating canyons, and totally Instagram-worthy vistas are only steps away from your hotel/hostel/campsite.
 ---
-
+<meta property="og:Wanderlot + Found" content="Blog" />
+<div itemscope itemtype="http://schema.org/Article">
+    <meta itemprop="url" content="http://http://www.getwanderlostandfound.com/north%20america/2018/04/03/my-favourite-town-of-banff-hikes.html" />
+    <span itemprop="name" content="Favourite Hikes in Banff, Alberta, Canada" />
+    <span itemprop="author" content="Jenn" />
+    <span itemprop="description"></span>
+</div>
 Canada's Rocky Mountains are famed for their dramatic peaks, gemstone-coloured lakes, and diverse wildlife. But they're also remote and cover a massive area, with many trails difficult to access if you don't have a vehicle. So what happens if you find yourself in the town of Banff with only your own two feet to get you places? You have an amazing time seeing the sights, of course! There are a surprising number of great hiking options with trailheads starting right in town, from flat-and-leisurely to get-that-blood-pumping to ohmygod-what-was-I-thinking? Towering trees, fascinating canyons, and totally Instagram-worthy vistas are only steps away from your hotel/hostel/campsite. Always be prepared when you go hiking and make sure you check wildlife notices, trail conditions, and the weather report before you go, because mountain environments can change lightning fast. Everything you need to be smart and informed is available from the Banff Visitor Centre at 224 Banff Ave; or on the <a href="https://www.pc.gc.ca/en/pn-np/ab/banff" target="blank"> <u>Parks Canada</u></a> website.<br><br>
+<div class="center">
+<a href="http://www.anrdoezrs.net/click-8028748-13182875" target="blank">
+<img src="http://www.tqlkg.com/image-8028748-13182875" min-width="50vw" min-height="10" alt="Intrepid" border="0"/></a><br><br>
+</div>
 
 Below you'll find some of my favourite hikes and walks, all of them accessible from the town of Banff, and ranked (albeit, completely subjectively) by required effort.
 
@@ -110,4 +120,8 @@ Below you'll find some of my favourite hikes and walks, all of them accessible f
 <div class="indent3">
 <b><u>Trailhead:</u></b> on the Spray River Loop east of the Spray River Bridge and past the fairway 15 on the golf course<br>
 <b><u>Stats:</u></b> 11 km round trip, 1,5770 m elevation gain<br>
-<b><u>Why I Love It:</u></b> Incredible views with a significant portion of the trail above the tree line. Walk along the "Dragon's Back" a spine of rock separating two gullies, and test your scrambling skills on the seemingly endless scree slopes. This mountain is not for the faint-hearted. Challenging and unforgiving, this scramble shouldn't be attempted unless you are confidant in your fitness and hiking abilities. It's considered an "easy" climb but only because you don't require any technical gear to reach the summit. Not to be taken lightly, several people have died on Mount Rundle in the past so make sure to always stay on the trail, and turn back immediately if bad weather approaches. Download Parks Canada's brochure <a href="https://www.pc.gc.ca/en/pn-np/ab/banff/visit/~/media/EE054720E0484995AA264E576932F946.ashx"><u>A Scrambler's Guide to Mount Rundle</u></a> before attempting this climb for a suggested gear list, tips, and a detailed description of the route.</div>
+<b><u>Why I Love It:</u></b> Incredible views with a significant portion of the trail above the tree line. Walk along the "Dragon's Back" a spine of rock separating two gullies, and test your scrambling skills on the seemingly endless scree slopes. This mountain is not for the faint-hearted. Challenging and unforgiving, this scramble shouldn't be attempted unless you are confidant in your fitness and hiking abilities. It's considered an "easy" climb but only because you don't require any technical gear to reach the summit. Not to be taken lightly, several people have died on Mount Rundle in the past so make sure to always stay on the trail, and turn back immediately if bad weather approaches. Download Parks Canada's brochure <a href="https://www.pc.gc.ca/en/pn-np/ab/banff/visit/~/media/EE054720E0484995AA264E576932F946.ashx"><u>A Scrambler's Guide to Mount Rundle</u></a> before attempting this climb for a suggested gear list, tips, and a detailed description of the route.<br><br></div>
+<div class="center">
+<a href="http://www.anrdoezrs.net/click-8028748-13182875" target="blank">
+<img src="http://www.tqlkg.com/image-8028748-13182875" min-width="50vw" min-height="10" alt="Intrepid" border="0"/></a>
+</div>
