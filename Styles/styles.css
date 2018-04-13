@@ -71,6 +71,7 @@ h1 {
   text-align: center;
   transform: rotateZ(-6deg);
   font-weight: normal;
+  background-color: rgba(0,0,0,0);
 }
 /* HERO IMAGE TEXT */
 h2 {
@@ -525,6 +526,8 @@ input[type=submit]{
   width: 100%;
   background-color: rgb(204,170,163);
 }
+/* ----- PURCHASE BUTTONS ---- */
+
 /* ----- CONTACT STYLES ---- */
 
 .contactForm input,
@@ -654,6 +657,7 @@ input[type=submit]{
   min-height: 75vh;
   border-radius: 3px;
 }
+
 .post {
   font-family: 'Raleway';
   line-height: 1.6;
@@ -661,6 +665,7 @@ input[type=submit]{
 .indent3 {
   padding-left: 3rem;
 }
+
 .pinthis .blocktitle {
   color: white;
   font-family: 'Raleway';

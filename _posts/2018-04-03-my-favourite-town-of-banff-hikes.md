@@ -23,7 +23,7 @@ pin-descript: There are a surprising number of great hiking options with trailhe
 ---
 <meta property="og:Wanderlot + Found" content="Blog" />
 <div itemscope itemtype="http://schema.org/Article">
-    <meta itemprop="url" content="http://http://www.getwanderlostandfound.com/north%20america/2018/04/03/my-favourite-town-of-banff-hikes.html" />
+    <meta itemprop="url" content="http://www.getwanderlostandfound.com/north%20america/2018/04/03/my-favourite-town-of-banff-hikes.html" />
     <span itemprop="name" content="Favourite Hikes in Banff, Alberta, Canada" />
     <span itemprop="author" content="Jenn" />
     <span itemprop="description" content="Great hiking options with trailheads starting right in town, from flat-and-leisurely to get-that-blood-pumping to ohmygod-what-was-I-thinking? Towering trees, fascinating canyons, and totally Instagram-worthy vistas are only steps away from your hotel/hostel/campsite."></span>
