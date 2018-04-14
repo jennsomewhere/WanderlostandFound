@@ -22,7 +22,7 @@ hero: true
     </div>
 
     {% for post in site.tags.Destinations limit:3 %}
-        <div class="col-3 post-preview">
+        <div class="col-3_xs-12  post-preview">
           <!-- <p>{{post.date | date_to_long_string}}</p> -->
           <a href="{{post.url}}">
             <div class="post-preview" style="background-image:url('{{post.featured-image}}')" />
@@ -50,7 +50,7 @@ hero: true
     </div>
 
     {% for post in site.tags.Tips limit:3 %}
-        <div class="col-3 post-preview">
+        <div class="col-3_xs-12 post-preview">
           <!-- <p>{{post.date | date_to_long_string}}</p> -->
           <a href="{{post.url}}">
             <div class="post-preview" style="background-image:url('{{post.featured-image}}')" />
@@ -78,7 +78,7 @@ hero: true
     </div>
 
     {% for post in site.tags.Editorial limit:3 %}
-        <div class="col-3 post-preview">
+        <div class="col-3_xs-12 post-preview">
           <!-- <p>{{post.date | date_to_long_string}}</p> -->
           <a href="{{post.url}}">
             <div class="post-preview" style="background-image:url('{{post.featured-image}}')" />

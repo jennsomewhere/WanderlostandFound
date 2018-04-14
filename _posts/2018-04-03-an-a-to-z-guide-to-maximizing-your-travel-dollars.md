@@ -37,7 +37,7 @@ Strive to experience your destination like a local for guaranteed good times tha
 Pedal power gives you a chance to immerse yourself in your new environment, allows you to experience things at a slower pace and notice things you might not otherwise see (not to mention let you eat that second piece of cake guilt free.) But if the prospect of biking long distances is giving you nightmares, consider taking the bus instead of trains or planes. While often slower, bus tickets are usually considerably less pricey than train tickets, and many now offer free wifi so you can spend the extra time planning your next stop.<br><br>
 
 <div class="center">
-<img src="/Images/bike.jpg" class="post-img" style="width:50vw">
+<img src="/Images/bike.jpg" class="post-img">
 </div><br><br>
 
 <h5 class="underline"><span style="color:#9b555a">COUCHSURF</span></h5><br>
@@ -61,12 +61,13 @@ Having a general overview of where you're going and what you want to do is key t
 <a href="http://www.jdoqocy.com/click-8028748-11736491?url=http%3A%2F%2Fwww.chapters.indigo.ca%2Fen-ca%2Fbooks%2Fproduct%2F9781786576538-item.html&cjsku=978178657653" target="blank">Guidebooks</a> are a relatively small expense packed with loads of valuable tips, tricks, and recommendations. These days many also come in handy .pdf format so you can download it to your phone and take it with you without having to lug the whole book. Even with all of the information out there on the internet, guidebooks are helpful when you are in your destination country and might not have 24/7 wifi, and sometimes can be one of the only sources of trusted information you have before arriving at your destination.<br><br>
 
 <div class="center">
-<a href="http://www.jdoqocy.com/click-8028748-11736491?url=http%3A%2F%2Fwww.chapters.indigo.ca%2Fen-ca%2Fbooks%2Fproduct%2F9781786576538-item.html&cjsku=978178657653" target="blank"><img src="/Images/guidebook.jpg" class="post-img" style="width:50vw"></a>
+<a href="http://www.jdoqocy.com/click-8028748-11736491?url=http%3A%2F%2Fwww.chapters.indigo.ca%2Fen-ca%2Fbooks%2Fproduct%2F9781786576538-item.html&cjsku=978178657653" target="blank"><img src="/Images/guidebook.jpg" class="post-img"></a>
 </div><br><br>
 
 <h5 class="underline">Stay at <span style="color:#9b555a">HOSTELS</span></h5><br>
 
 If couchsurfing isn't a thing you'd be into, consider <a href="https://prf.hn/click/camref:1101lnPB/creativeref:1101l8045">staying at a hostel</a>. Many hostels offer private rooms if you don't want to share a dorm, and they are almost always less expensive than hotels. Hostels are also great places to meet new friends, get some tips and recommendations from people who have visited the sites you want to see, and many offer easy-on-the-wallet tours and travel deals geared towards budget travelers. You might get extras thrown in as well, like free shuttles to popular sites, free breakfasts, all day tea & coffee, activities for guests, etc. At Base St. Kilda in Melbourne, I even got free champagne in the bar every evening during happy hour!<br><br>
+
 <div class="center">
 <script type="text/javascript" src="https://creative.prf.hn/creative/camref:1101lnPB/creativeref:1100l10863"></script><br></div>
 
@@ -99,7 +100,7 @@ When airlines introduce new routes they haven't got an established base of trave
 If you're eating at restaurants in tourist areas with "We Speak English" signs posted in their window you'll probably be paying a premium. Nothing against those restaurants, but you're likely to get better value for your money if you head off the main roads and search out spots that are packed with locals. Not only will you be paying the same price locals pay to eat out, but if you choose a restaurant full of local people, you know you'll be getting a tasty and authentic meal as well. If you can't read the menu, try ordering from the daily specials and hope for the best! I ate some amazing meals in Cairo (from a restaurant that a local walking by on the street recommended) and never had any idea what I was ordering. It was an adventure, and despite the staff laughing at some of the things I ended up ordering (and my attempts to eating it!), it was a great experience.<br><br>
 
 <div class="center">
-<img src="/Images/ramen.jpg" class="post-img" style="width:50vw">
+<img src="/Images/ramen.jpg" class="post-img">
 </div><br><br>
 
 <h5 class="underline">Have a <span style="color:#9b555a">PICNIC</span></h5><br>
@@ -117,8 +118,8 @@ It usually doesn't cost you anything to sign up for rewards/loyalty programs, an
 Another way to earn for stuff you're doing online anyways is to sign up for a rewards program like <a href="http://www.jdoqocy.com/click-8028748-10470795" target="top">mypoints.com</a> which awards you points for shopping, booking hotels, etc. Then you can trade your points in for gift certificates, travel miles or cash deposits into your Paypal account. If you have some time to spare, they'll also pay you to <a href="http://www.anrdoezrs.net/click-8028748-10493656"> take surveys online!</a> (it's a great way to pass the time while you're sitting on public transit)<br><br>
 
 <div class="center">
-<a href="http://www.tkqlhce.com/click-8028748-10463887" target="top">
-<img src="/Images/Ads/mypoints.png" class="post-img" style="width:35vw"></a>
+<a href="http://www.kqzyfj.com/click-8028748-10463887" target="top">
+<img src="http://www.lduhtrp.net/image-8028748-10463887" width="468" height="60" alt="" border="0"/></a>
 </div><br><br>
 
 <h5 class="underline">Travel in <span style="color:#9b555a">SECOND CLASS</span></h5><br>
