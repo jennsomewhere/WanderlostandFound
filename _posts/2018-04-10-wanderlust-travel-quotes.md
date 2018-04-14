@@ -29,69 +29,69 @@ Wanderlust, that feeling of wanting to pick up, leave on the next plane (or trai
 If you're anything like me, you've definitely felt that same longing for adventure. And if you're also like me, you know that daydreams rarely pay the bills, and you probably can't just yell "see ya" to the boss on your way out the door (at least not until your next approved vacation). Instead, here are 17 travel quotes that will definitely feed your wanderlust, and maybe help you get through that workday that just won't ever end.<br><br>
 
 <div class="padded3">
-<blockquote class="italic bold" style="font-size:1.6rem">
+<blockquote class="italic bold">
 “Every dreamer knows that it is entirely possible to be homesick for a place you’ve never been to, perhaps more homesick than for familiar ground.”
 </blockquote> <span class="padded3">- Judith Thurman</span><br><br>
 
-<blockquote class="italic bold" style="font-size:1.6rem">
+<blockquote class="italic bold">
 “If we were meant to stay in one place, we’d have roots instead of feet he said.”</blockquote>
 <span class="padded3">- Rachel Wolchin</span><br><br>
 
-<blockquote class="italic bold" style="font-size:1.6rem">
+<blockquote class="italic bold">
 “Once the travel bug bites there is no known antidote, and I know that I shall be happily infected until the end of my life.”</blockquote> <span class="padded3">– Michael Palin</span><br><br>
 
-<blockquote class="italic bold" style="font-size:1.6rem">
+<blockquote class="italic bold">
 “To move, to breathe, to fly, to float; to gain all while you give; to roam the roads of lands remote; to travel is to live.”</blockquote> <span class="padded3">– Hans Christian Andersen</span><br><br>
 
-<blockquote class="italic bold" style="font-size:1.6rem">
+<blockquote class="italic bold">
 “We travel, some of us forever, to seek other states, other lives, other souls.”
 </blockquote> <span class="padded3">– Anaïs Nin</span><br><br>
 
-<blockquote class="italic bold" style="font-size:1.6rem">
+<blockquote class="italic bold">
 “The world is a book and those who do not travel read only one page.”
 </blockquote> <span class="padded3">– St. Augustine</span><br><br>
 
-<blockquote class="italic bold" style="font-size:1.6rem">
+<blockquote class="italic bold">
 “Someday is a disease that will take your dreams to the grave with you.”
 </blockquote> <span class="padded3">– Timothy Ferriss</span><br><br>
 
-<blockquote class="italic bold" style="font-size:1.6rem">
+<blockquote class="italic bold">
 “Travel is fatal to prejudice, bigotry, and narrow-mindedness.”
 </blockquote> <span class="padded3">– Mark Twain</span><br><br>
 
-<blockquote class="italic bold" style="font-size:1.6rem">
+<blockquote class="italic bold">
 “I always wonder why birds stay in the same place when they can fly anywhere on the Earth. Then I ask myself the same question.”
 </blockquote> <span class="padded3">– Harun Yahya</span><br><br>
 
-<blockquote class="italic bold" style="font-size:1.6rem">
+<blockquote class="italic bold">
 “Why do you go away? So that you can come back. So that you can see the place you came from with new eyes and extra colors. And the people there see you differently, too. Coming back to where you started is not the same as never leaving.”
 </blockquote> <span class="padded3">- Terry Pratchett</span><br><br>
 
-<blockquote class="italic bold" style="font-size:1.6rem">
+<blockquote class="italic bold">
 “I am not the same having seen the moon shine on the other side of the world.”
 </blockquote> <span class="padded3">– Mary Anne Radmacher</span><br><br>
 
-<blockquote class="italic bold" style="font-size:1.6rem">
+<blockquote class="italic bold">
 “Twenty years from now you will be more disappointed by the things that you didn’t do than by the ones you did do. So throw off the bowlines. Sail away from the safe harbour. Catch the trade winds in your sails. Explore. Dream. Discover.”
 </blockquote> <span class="padded3">– Sarah Frances Brown</span><br><span style="font-size:0.8rem">(this quote is often -wrongly!- attributed to Mark Twain. There is no evidence he ever said this, and in fact the earliest known appearance was published in a 1990 book called "P.S. I Love You")</span><br><br>
 
-<blockquote class="italic bold" style="font-size:1.6rem">
+<blockquote class="italic bold">
 “This world is but a canvas to our imagination.”
 </blockquote> <span class="padded3">– Henry David Thoreau</span><br><br>
 
-<blockquote class="italic bold" style="font-size:1.6rem">
+<blockquote class="italic bold">
 “If you think adventure is dangerous, try routine – it’s lethal.”
 </blockquote> <span class="padded3">– Paulo Coelho</span><br><br>
 
-<blockquote class="italic bold" style="font-size:1.6rem">
+<blockquote class="italic bold">
 “The impulse to travel is one of the hopeful symptoms of life.”
 </blockquote> <span class="padded3">– Agnes Repplier</span><br><br>
 
-<blockquote class="italic bold" style="font-size:1.6rem">
+<blockquote class="italic bold">
 “Now more than ever do I realize that I will never be content with a sedentary life, that I will always be haunted by thoughts of a sun-drenched elsewhere.”
 </blockquote> <span class="padded3">- Isabelle Eberhardt</span><br><br>
 
-<blockquote class="italic bold" style="font-size:1.6rem">
+<blockquote class="italic bold">
 “They say no land remains to be discovered, no continent is left unexplored. But the whole world is out there, waiting, just waiting for me. I want to do things– I want to walk the rain-soaked streets of London, and drink mint tea in Casablanca. I want to wander the wastelands of the Gobi desert and see a yak. I think my life’s ambition is to see a yak. I want to bargain for trinkets in an Arab market in some distant, dusty land. There’s so much."
 </blockquote> <span class="padded3">- Lisa Ann Sandell</span>
 </div>
