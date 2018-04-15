@@ -927,6 +927,11 @@ body.loaded #loading {
 /* ----- MEDIA QUERIES ---- */
 
 /* ----- TABLET ---- */
+@media screen and (min-width: 769px) {
+  .top-logo {
+    display: none;
+  }
+}
 @media screen and (max-width: 1026px) {
 
   #ig-filler {
@@ -967,7 +972,7 @@ body.loaded #loading {
   }
   /* LOGO */
   h6 {
-    font-size: 1rem;
+    font-size: 1.6rem;
   }
   .img-home {
     padding: 5%;
@@ -978,6 +983,9 @@ body.loaded #loading {
   }
   .mainMenu a {
     font-size: 1rem;
+  }
+  .dropdown-content {
+    display: none;
   }
   .padded3lr {
   padding: 0 1rem;
@@ -1107,6 +1115,16 @@ body.loaded #loading {
   }
 }
 
+@media screen and (max-width: 769px) {
+  .logo {
+    display: none;
+  }
+  h6 {
+    font-size: 1.9rem;
+    padding-bottom: 0;
+  }
+}
+
 /* ----- MOBILE ---- */
 @media screen and (max-width: 415px){
   body {
@@ -1130,7 +1148,7 @@ body.loaded #loading {
   }
   /* LOGO */
   h6 {
-    font-size: 0.7rem;
+    font-size: 1rem;
   }
   blockquote {
     font-size: 1.2rem;
@@ -1238,5 +1256,8 @@ body.loaded #loading {
   iframe.youtube {
     min-width: 300px;
     min-height: 180px;
+  }
+  .logo {
+    display: none;
   }
 }
