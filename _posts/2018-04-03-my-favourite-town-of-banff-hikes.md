@@ -4,7 +4,7 @@ title: My Favourite Town of Banff Hikes
 description: My favourite hikes that are totally accessible from the Town of Banff - no car
   required!
 blog-menu: true
-sidebar: true
+sidebar: false
 comments: true
 categories:
   - North America

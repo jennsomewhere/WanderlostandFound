@@ -7,7 +7,7 @@ pin1: /Images/Pinterest/quotes-longpin2.png
 pin2: /Images/Pinterest/17-quotes-pin2.png
 pin-descript: 17 Quotes to Feed Your Wanderlust |   @wanderlost.and.found on Instagram
 blog-menu: true
-sidebar: true
+sidebar: false
 comments: true
 categories:
   - North America

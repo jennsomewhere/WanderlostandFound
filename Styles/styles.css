@@ -984,7 +984,12 @@ body.loaded #loading {
   .mainMenu a {
     font-size: 1rem;
   }
-  .dropdown-content {
+  #navtraveltips,
+  #wanderlost,
+  #navextras,
+  #navaboutb,
+  #navabout,
+  #navcollab {
     display: none;
   }
   .padded3lr {

@@ -3,7 +3,7 @@ layout: post
 title: Pai is Love
 description: Pai, Thailand is the self-declared love capital of Thailand, and it's easy to see why. There's something special about this tiny little mountain town that you will fall in love with too.
 blog-menu: true
-sidebar: true
+sidebar: false
 comments: true
 categories:
   - Asia

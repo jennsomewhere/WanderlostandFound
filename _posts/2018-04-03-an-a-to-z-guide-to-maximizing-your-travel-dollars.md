@@ -12,7 +12,7 @@ pin-descript: From accommodation to transportation to sight-seeing, there are
   a wide range of options out there for you to travel for little to no money of
   your own. (Yes, it is actually possible!)
 blog-menu: true
-sidebar: true
+sidebar: false
 comments: true
 tags:
   - Tips
