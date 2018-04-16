@@ -10,6 +10,7 @@ tags:
   - Freebies
   - Resources
   - Instagram
+  - Editorial
 featured-image: /Images/palms.jpg
 pin1: /Images/Pinterest/templates-pin1.png
 pin2: /Images/Pinterest/templates-pin2.png
