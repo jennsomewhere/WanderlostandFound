@@ -83,6 +83,11 @@ Joining forces with other travellers can save you a few dollars. Are you all tra
 
 Got a week off work but no firm travel plans? Check out last minute deals on airline and vacation package websites for some great prices to various destinations. Last minute deals are usually posted by airlines and package providers close to the departure date as they try to fill up seats on a plane or spots on a tour. Sometimes airlines will also offer promos on certain itineraries like double the reward miles if you fly to a specific city, which can help you earn free stuff faster.<br><br>
 
+<div class="center">
+<a href="http://www.tkqlhce.com/click-8028748-12902414" target="blank">
+<img src="http://www.awltovhc.com/image-8028748-12902414" width="728" min-height="45" alt="Up to 25% Off Last Minute Trips! - Geckos Adventures" border="0"/></a>
+</div><br><br>
+
 <h5 class="underline">Take Advice from the <span style="color:#9b555a">LOCALS</span></h5><br>
 
 Locals know their city, and are usually eager to give advice to help travellers enjoy their stay. You might learn about a free concert in a park on the weekend, where the absolute best place to eat dumplings is, or what neighbourhoods to avoid after dark. If a local offers up advice, and doesn't follow you into a business to collect their "commission," you should definitely take it into consideration and try to work it into your travel plans.<br><br>
@@ -119,7 +124,7 @@ Another way to earn for stuff you're doing online anyways is to sign up for a re
 
 <div class="center">
 <a href="http://www.kqzyfj.com/click-8028748-10463887" target="top">
-<img src="http://www.lduhtrp.net/image-8028748-10463887" width="468" height="60" alt="" border="0"/></a>
+<img src="http://www.lduhtrp.net/image-8028748-10463887" width="468" min-height="45" alt="" border="0"/></a>
 </div><br><br>
 
 <h5 class="underline">Travel in <span style="color:#9b555a">SECOND CLASS</span></h5><br>
@@ -128,7 +133,12 @@ The second class cars on a train get to their destination just as quickly as the
 
 <h5 class="underline"><span style="color:#9b555a">TEACH </span>English Abroad</h5><br>
 
-Although it's useful to have a TEFL certificate for this, not everywhere will require it. The most important qualification you have is being a native English speaker, and in some countries you just need to *look* like you could be a native English speaker to get the job. Teaching English (especially if you're certified) can earn you a comfortable wage, often in countries where the cost of living is very low. Many schools will also subsidize your accommodation, pay your flight costs, and even provide a bonus when you finish your contract. There are many websites out there dedicated to helping connect English teachers with open positions if you just do a quick Google search, just one of many is Footprints Recruiting (I have no actual experience with this agency, but they seems to get good reviews from others that they've placed abroad.) If an actual teaching contract is too much to commit to, try Culture Go Go; a site that connects English speakers with host families that want to improve their English skills. You volunteer your time and the families will provide you with room & board in exchange.<br><br>
+Although it's useful to have a post-secondary degree when looking for a teaching job abroad, not everywhere will require it. The most important qualification you have is being a native English speaker, and getting your <a href="http://www.anrdoezrs.net/click-8028748-11797161" target="blank">TEFL certification</a> is quick, easy and affordable online. <a href="http://www.anrdoezrs.net/click-8028748-11797161" target="blank">i-to-i's Online TEFL courses</a> start from $175, and they have intership postings and paid teaching postings listed right on their website so you can start applying as soon as you've finished your course. Teaching English can earn you a comfortable wage, often in countries where the cost of living is very low. Many schools will also subsidize your accommodation, pay your flight costs, and even provide a bonus when you finish your contract. If an actual teaching contract is too much to commit to, try <a href="https://culturegogo.com/Culture" target="blank"> Go Go</a>; a site that connects English speakers with host families that want to improve their English skills. You volunteer your time and the families will provide you with room & board in exchange.<br><br>
+
+<div class="center">
+<a href="http://www.anrdoezrs.net/click-8028748-11797161" target="blank">
+<img src="http://www.awltovhc.com/image-8028748-11797161" width="728" min-height="45" alt="" border="0"/></a>
+</div><br><br>
 
 <h5 class="underline"><span style="color:#9b555a">UTILIZE </span>Your Internetting Skills</h5><br>
 

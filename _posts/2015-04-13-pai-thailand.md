@@ -68,3 +68,11 @@ In the evenings, once you’ve had your fill of food on sticks, tea from bamboo,
 I feel like I should also warn you a little bit about the weather. Bring pants and long sleeves at the minimum. You might even want a jacket and a toque (or it you’re not Canadian: beanie, knitted cap, whatever), especially in the winter months. It has been known to snow in the dead of winter, but the higher altitude means even in summer the nights can get quite cool. It’s hot during the day, but the minute the sun went down, we were all changing out of our shorts. You honestly don't even need to worry about finding accommodation with air conditioning. Unless you like things to be really cold, you’re not going to use it.<br><br>
 
 Pai is falling in love, although not necessarily falling in love with a person (but that’s okay too!) Pai is falling in love with the mountains, with the sun sets, and with the genuinely friendly locals. If you’re arriving after a stay in Bangkok, or even Chiang Mai, Pai is falling in love with the relaxed pace, the laissez-faire attitude of its residents, and the rural atmosphere. Pai is falling in love with lazy mornings, and afternoons spent sharing Chang with the new friends you just met. Pai is falling in love with how happy you are to spend your days doing absolutely nothing even though the whole world is at your feet. Pai is that moment where you stop, look around and truly see your surroundings. It’s that deep breath you take, and that calm feeling you have when you slowly exhale. Pai is falling in love with being happy. And most importantly, Pai is learning to love being inundated with the word “love.” (But who doesn’t love "love" anyways?)<br><br>
+
+<div class="center">
+<a href="http://www.jdoqocy.com/click-8028748-12902414" target="blank">
+<img src="http://www.lduhtrp.net/image-8028748-12902414" width="728" min-height="45" alt="Up to 25% Off Last Minute Trips! - Geckos Adventures" border="0"/></a><br><br>
+
+<a href="http://www.anrdoezrs.net/click-8028748-13182875" target="blank">
+<img src="http://www.lduhtrp.net/image-8028748-13182875" width="728" min-height="45" alt="Intrepid" border="0"/></a></div>
+<br><br>

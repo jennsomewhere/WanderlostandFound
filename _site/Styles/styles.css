@@ -1265,4 +1265,7 @@ body.loaded #loading {
   .logo {
     display: none;
   }
+  .postcontent h5 {
+    font-size: 1rem;
+  }
 }
