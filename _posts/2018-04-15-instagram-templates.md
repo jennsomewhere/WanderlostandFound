@@ -18,7 +18,7 @@ pin-descript: Free ready-to-use templates you can use for your own Instagram Sto
 ---
 <meta property="og:Wanderlot + Found" content="Blog" />
 <div itemscope itemtype="http://schema.org/Article">
-    <meta itemprop="url" content="http://www.getwanderlostandfound.com/asia/2018/05/15/instagram-templates.html" />
+    <meta itemprop="url" content="http://www.getwanderlostandfound.com/asia/2018/04/15/instagram-templates.html" />
     <span itemprop="name" content="Instagram Story Templates" />
     <span itemprop="author" content="Jenn | Wanderlost + Found" />
     <span itemprop="description" content="Free templates you can use for your Instagram Stories"></span>

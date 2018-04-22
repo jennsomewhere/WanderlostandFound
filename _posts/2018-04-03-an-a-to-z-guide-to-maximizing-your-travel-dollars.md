@@ -23,6 +23,7 @@ tags:
   - How Tos
   - Recommendations
   - On My Mind
+  - Tips & Tricks
 ---
 
 **Don't let an empty wallet stop you from dreaming big when it comes to your travel plans. From accommodation to transportation to sight-seeing, there are a wide range of options out there for you to travel for little to no money of your own. (Yes, it is actually possible!)**<br><br>
