@@ -55,4 +55,6 @@ To use: just download or screenshot the images you want to use, upload them to y
 <div class="center">
 <img src="/Images/Templates/Bucketlist - World Wonders.png" class="post-img">
 </div><br><br>
-Remember to tag @wanderlost.and.found when you post these! Can't wait to see what everyone shares <i class="fas fa-heart"></i>
+Remember to tag @wanderlost.and.found when you post these! Can't wait to see what everyone shares <i class="fas fa-heart"></i><br><br>
+
+<a href="https://www.bloglovin.com/blog/14888857/?claim=89ryubxvqb4">Follow my blog with Bloglovin</a>
