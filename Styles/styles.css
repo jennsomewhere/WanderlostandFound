@@ -714,6 +714,8 @@ blockquote {
 }
 .media-font {
   font-family: 'Poiret One', cursive;
+  line-height: 1.6;
+  font-size: 1.3rem;
 }
 .brandname {
   font-family: 'Poiret One', cursive;
@@ -737,7 +739,7 @@ blockquote {
   min-height: 30vh;
 }
 .media-heading {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   letter-spacing: 5px;
   font-weight: bold;
   text-decoration: underline;
