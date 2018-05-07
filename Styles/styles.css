@@ -88,6 +88,12 @@ h5{
   font-size: 2rem;
   text-transform: uppercase;
 }
+h6 {
+  font-family: 'gogoiadeco';
+  font-size: 2.4rem;
+  letter-spacing: 3px;
+  color: rgb(105,96,94);
+}
 .postcontent h2,
 .postcontent h3,
 .postcontent h4, {
@@ -99,13 +105,9 @@ h5{
   padding: 0.5 rem;
 }
 /* LOGO */
-h6 {
-  font-family: 'gogoiadeco';
-  font-size: 2.4rem;
-  letter-spacing: 3px;
+h6 .logo {
   padding: 5%;
   text-align: center;
-  color: rgb(105,96,94);
 }
 
 /*LOADING SCREEN*/
