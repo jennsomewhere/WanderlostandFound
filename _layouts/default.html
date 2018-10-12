@@ -86,10 +86,22 @@ pintrk('track', 'pagevisit');
   <section class="grid-spaceAround-middle-center-noGutter mailingList">
   {% include mailing-list.html %}
   </section>
+  <section class="follow-text">
+    <p class="center">
+      follow along on instagram - <a href="http://www.instagram.com/wanderlost.and.found" target="_blank"><span class="underline">@wanderlost.and.found</span></a>
+    </p>
+  </section>
   {% include ig.html %}
 
   {% if page.sidebar == false %}
     {% include footer.html %}
+    <section class="gdpr-footer">
+      {% include gdpr.html %}
+    </section>
+  {% else %}
+    <section class="gdpr-nofooter">
+      {% include gdpr.html %}
+    </section>
   {% endif %}
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>

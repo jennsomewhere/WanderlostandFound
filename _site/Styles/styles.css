@@ -28,6 +28,9 @@ rgb(116,145,134) dark green  */
 .padded1{
   padding: 1rem;
 }
+.padded1tb {
+  padding: 1rem 0;
+}
 .padded3lr {
   padding: 0 3rem;
 }
@@ -36,6 +39,9 @@ rgb(116,145,134) dark green  */
 }
 .padded8lr {
   padding: 0 8rem;
+}
+.padded-followme {
+  padding: 6rem 0 0 0
 }
 /* ----- TYPOGRAPHY ----- */
 @font-face {
@@ -160,6 +166,9 @@ h6 .logo {
 }
 .bottom-border {
   border-bottom: 1px solid rgb(200,200,200);
+}
+.brown-text {
+  color: rgb(105,96,94)
 }
 /* ----- UNIVERSAL STYLES ---- */
 
@@ -449,7 +458,7 @@ aside .connectIcons a{
 }
 .copyright {
   font-size: 1rem;
-  padding: 0.5%;
+  padding: 0.5rem;
   text-transform: uppercase;
   border-top: 0.5px solid rgb(105,96,94);
 }
@@ -461,7 +470,7 @@ aside .connectIcons a{
 #ig-filler {
   width: 19vw;
   height: 9vw;
-  background-color: black;
+  background-color: white;
 }
 #ig iframe {
   position: absolute;
@@ -477,7 +486,17 @@ iframe.ig {
 .sidebar-imagetext {
   background-color: rgb(204,170,163);
 }
-
+.gdpr-footer,
+.gdpr-nofooter {
+  padding: 0.5rem;
+  color: rgb(204,170,163);
+  background-color: rgb(65,59,58);
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+.gdpr-nofooter {
+  padding: 2rem 0 1rem 0;
+}
 /* ----- MAILING LIST STYLES ---- */
 .mailingList {
   text-transform: lowercase;
@@ -485,7 +504,7 @@ iframe.ig {
   font-family: 'Raleway', sans-serif;
   text-align: center;
   font-size: 1.5rem;
-  padding: 1.5rem;
+  padding: 2rem;
   background-color: rgb(204,170,163);
   color: rgb(65,59,58);
 }
@@ -535,6 +554,15 @@ input[type=submit]{
 .search {
   width: 100%;
   background-color: rgb(204,170,163);
+}
+.follow-text {
+  text-transform: lowercase;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  font-size: 1.4rem;
+  padding: 1.5rem;
+  color: rgb(204,170,163);
+  background-color: rgb(65,59,58);
 }
 /* ----- PURCHASE BUTTONS ---- */
 
@@ -1070,7 +1098,7 @@ body.loaded #loading {
   .post-img {
     width: 100vw;
   }
-  .mailingList {
+  .mailingList, .follow-text {
     font-size: 0.75rem;
     padding: 1rem;
   }
@@ -1125,6 +1153,17 @@ body.loaded #loading {
   }
   .pinthis .blocktitle {
     font-size: 0.5rem;
+  }
+  .gdpr-footer,
+  .gdpr-nofooter {
+    padding: 0.5rem;
+    font-size: 0.8rem;
+  }
+  .gdpr-nofooter {
+    padding: 2rem 0 1rem 0;
+  }
+  .copyright {
+    font-size: 0.8rem;
   }
 }
 
