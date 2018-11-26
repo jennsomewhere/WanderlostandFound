@@ -993,6 +993,10 @@ body.loaded #loading {
   background-color: white;
 }
 
+.cc-revoke.cc-bottom {
+  display: none;
+}
+
 /* ----- MEDIA QUERIES ---- */
 
 /* ----- TABLET ---- */
@@ -1208,11 +1212,14 @@ body.loaded #loading {
     font-size: 1.9rem;
     padding-bottom: 0;
   }
+  .cc-revoke.cc-bottom {
+    display: none;
+  }
 
 }
 
 /* ----- MOBILE ---- */
-@media screen and (max-width: 425px){
+@media screen and (max-width: 426px){
   body {
     font-size: 0.8rem;
   }
@@ -1359,4 +1366,5 @@ body.loaded #loading {
     padding: 0.75rem;
     font-size: 1rem;
   }
+
 }
