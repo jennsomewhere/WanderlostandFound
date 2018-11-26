@@ -1212,7 +1212,7 @@ body.loaded #loading {
 }
 
 /* ----- MOBILE ---- */
-@media screen and (max-width: 415px){
+@media screen and (max-width: 425px){
   body {
     font-size: 0.8rem;
   }
@@ -1350,13 +1350,13 @@ body.loaded #loading {
     font-size: 1rem;
   }
   .links h1 {
-    font-size: 5rem;
+    font-size: 5.4rem;
   }
   .linkbutton {
-    font-size: 0.9rem;
     margin: 0.75rem;
   }
   .linkbutton p {
     padding: 0.75rem;
+    font-size: 1rem;
   }
 }
