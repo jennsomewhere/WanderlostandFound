@@ -95,10 +95,7 @@ h5{
   text-transform: uppercase;
 }
 h6 {
-  font-family: 'gogoiadeco';
-  font-size: 2.4rem;
-  letter-spacing: 3px;
-  color: rgb(105,96,94);
+  font-size: 1.8rem;
 }
 .postcontent h2,
 .postcontent h3,
@@ -111,9 +108,11 @@ h6 {
   padding: 0.5 rem;
 }
 /* LOGO */
-h6 .logo {
+.logo h1 {
   padding: 5%;
   text-align: center;
+  font-size: 3.5rem;
+  color: inherit;
 }
 
 /*LOADING SCREEN*/
@@ -274,16 +273,16 @@ header {
   min-height: 100vh;
   text-align: center;
   color: white;
-  font-family: 'gogoiadeco';
-
   letter-spacing: 10px;
   background-image: url('../Images/road2.jpg');
   background-size: cover;
   background-position: center;
 }
-.hero h2 {
+.hero h1 {
   text-align: center;
-  font-size: 6rem;
+  font-size: 14rem;
+  letter-spacing: normal;
+
 }
 .hero .subhead {
   font-family: 'Poiret One', cursive;
@@ -1215,6 +1214,9 @@ body.loaded #loading {
   .cc-revoke.cc-bottom {
     display: none;
   }
+  .hero h1 {
+    font-size: 10rem;
+  }
 
 }
 
@@ -1227,6 +1229,9 @@ body.loaded #loading {
     font-size: 3rem;
   }
   /* HERO IMAGE TEXT */
+  .hero h1 {
+    font-size: 5rem;
+  }
   h2 {
     font-size: 1.1rem;
   }
