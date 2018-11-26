@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115008219-1">
+    </script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-115008219-1');
+    </script>
+
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One|Raleway" rel="stylesheet">
+    <title>{{page.title}}</title>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link rel="stylesheet" type="text/css" href="/Styles/gridlex.css">
+    <link rel="stylesheet" type="text/css" href="/Styles/styles.css">
+    <meta name="viewport" content="width=device-width, user-scalable=0">
+
+    <!-- Cookie Banner -->
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+    <script src="/js/cookieBanner.js"></script>
+
+  </head>
+
+  <body>
+
+    <div class="grid-noGutter">
+      <div class="col">
+        {{content}}
+      </div>
+    </div>
+
+
+
+  </body>
+</html>

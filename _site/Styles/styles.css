@@ -963,6 +963,36 @@ body.loaded #loading {
   opacity: 0;
 }
 
+/* ----- LINK PAGE ---- */
+.linkpage {
+  background-color:rgb(65,59,58)
+}
+.links {
+  min-height: 100vh;
+  background-image: url('../Images/handara-gate.jpg');
+  background-position: center;
+  background-size: cover;
+}
+.links h1 {
+  font-size: 7rem;
+  padding-bottom: 1.5rem;
+}
+.linkbutton {
+  background-color: rgba(255,255,255,0.6);
+  border: 4px solid rgb(65,59,58);
+  border-radius: 10px;
+  color: rgb(65,59,58);
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin: 0.3rem;
+}
+.linkbutton p {
+  padding: 1.5rem;
+}
+.linkbutton:hover {
+  background-color: white;
+}
+
 /* ----- MEDIA QUERIES ---- */
 
 /* ----- TABLET ---- */
@@ -1178,6 +1208,7 @@ body.loaded #loading {
     font-size: 1.9rem;
     padding-bottom: 0;
   }
+
 }
 
 /* ----- MOBILE ---- */
@@ -1317,5 +1348,15 @@ body.loaded #loading {
   }
   .postcontent h5 {
     font-size: 1rem;
+  }
+  .links h1 {
+    font-size: 5rem;
+  }
+  .linkbutton {
+    font-size: 0.9rem;
+    margin: 0.75rem;
+  }
+  .linkbutton p {
+    padding: 0.75rem;
   }
 }
