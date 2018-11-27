@@ -991,6 +991,11 @@ body.loaded #loading {
 .linkbutton:hover {
   background-color: white;
 }
+.link-subhead {
+  color: white;
+  font-family: 'Poiret One', cursive;
+  letter-spacing: 5px;
+}
 
 .cc-revoke.cc-bottom {
   display: none;
@@ -1370,6 +1375,9 @@ body.loaded #loading {
   .linkbutton p {
     padding: 0.75rem;
     font-size: 1rem;
+  }
+  .link-subhead {
+    letter-spacing: 1px;
   }
 
 }
