@@ -843,6 +843,26 @@ iframe.youtube {
   min-height: 365px;
 }
 
+/* ----- PARALLAX HERO ----- */
+.parallaxHero {
+  background-image: url(/Images/freePreset.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  z-index: 0;
+  opacity: 0.5;
+  width: 100%;
+  height: 100%;
+}
+.title {
+  z-index: 1;
+  min-height: 100vh;
+  min-width: 100vw;
+  color: white;
+}
+
 /* ----- EXPLORING MAP ----- */
 #mapdiv {
   background-color: #ccaaa3;
