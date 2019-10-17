@@ -28,9 +28,7 @@ pin-descript: The best things in life are free! Or at least that's what they say
 
 The world's "Most Liveable City" isn't exactly known for being a budget destination where you can stretch your dollars (let's face it, nowhere in Australia really is). But Melbourne is an amazing city jam-packed with a ton of things to do and see, and lots of it is completely free! You can easily spend a few days exploring the city, soaking in Melbourne's pervasive and eclectic culture, and seeing the sights without breaking the bank. Save your dollars for Melbourne's famous coffee instead, by checking out these free, but fantastic, attractions:<br><br>
 
-<div class="center">
-<a href="http://www.tkqlhce.com/click-8028748-12902414" target="top">
-<img src="http://www.tqlkg.com/image-8028748-12902414" width="728" height="90" alt="Up to 25% Off Last Minute Trips! - Geckos Adventures" border="0"/></a></div>
+
 
 <div class="padded3">
   <b><h6><i class="fas fa-map-marker-alt"></i> City Circle Tourist Tram</h6></b>
@@ -55,10 +53,6 @@ The world's "Most Liveable City" isn't exactly known for being a budget destinat
   <b><h6><i class="fas fa-map-marker-alt"></i> Australian Centre for the Moving Image (ACMI)</h6></b>
   A museum dedicated to Australian film history, ACMI offers an interactive journey through the evolution of moving art from zoetrope to modern video games. Upstairs, you can watch movies from the National Film Archives. Located in Federation Square.
   <br><br>
-  <div class="center">
-  <a href="http://www.dpbolvw.net/click-8028748-13182875" target="top">
-<img src="http://www.awltovhc.com/image-8028748-13182875" width="728" height="90" alt="Intrepid" border="0"/></a>
-</div><br>
 
   <b><h6><i class="fas fa-map-marker-alt"></i> Australian Centre for Contemporary Art (ACCA)</h6></b>
   This free gallery offers a showcase of Australian and international contemporary artists, and they offer many talks and programs throughout the week as well. Get a free guided tour of ACCA on Sundays or drop in any day (except Mondays - they're closed) and chat with the gallery attendants, many of whom are practicing artists themselves. 111 Sturt Street.
@@ -91,7 +85,5 @@ The world's "Most Liveable City" isn't exactly known for being a budget destinat
   <b><h6><i class="fas fa-map-marker-alt"></i> Koorie Heritage Trust</h6></b>
   Also located at Federation Square, the Koorie Heritage Trust offers an immersive experience into the local Indigenous culture. There's a permanent social history exhibit, and numerous temporary exhibits by new and established Aboriginal artists. Get a taste of what the area was like prior to British colonialisation and learn about the contemporary Koorie history and cultural as well.
   <br><br>
-  <div class="center">
-  <a href="http://www.tkqlhce.com/click-8028748-12845234" target="top">
-<img src="http://www.lduhtrp.net/image-8028748-12845234" width="728" height="90" alt="Deals of the Week: New deals every week, online only!" border="0"/></a></div>
+
 </div>
